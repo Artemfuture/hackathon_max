@@ -1,0 +1,20 @@
+.collage {
+  display: grid;
+  height: 120px;
+  grid-template-rows: 100%;
+  gap: 1px;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #fff;
+}
+
+.tile {
+  position: relative;
+  overflow: hidden;
+}
+
+.tile img {
+  position: absolute;
+  max-width: none;
+  object-fit: cover;
+}

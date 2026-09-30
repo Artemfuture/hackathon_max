@@ -1,0 +1,6004 @@
+{
+ "source": {
+  "name": "OpenStreetMap",
+  "license": "ODbL — © участники OpenStreetMap",
+  "updatedAt": "2026-09-29",
+  "groups": "тестовые данные: группы, расписание и цены вымышлены"
+ },
+ "venues": [
+  {
+   "id": "osm-70001",
+   "osm": "node/13391230409",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Spirit.fitness",
+   "place": "Spirit.fitness",
+   "address": null,
+   "lat": 55.786933,
+   "lon": 49.124037,
+   "hours": {
+    "open": "07:00",
+    "close": "24:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/13391230409",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70002",
+   "osm": "node/10655436161",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Ddx",
+   "place": "Ddx",
+   "address": null,
+   "lat": 55.786208,
+   "lon": 49.121595,
+   "hours": {
+    "open": "06:00",
+    "close": "24:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.ddxfitness.ru/clubs/ddx-kazan-pushkina/",
+   "phone": "+7 843 2118000",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70003",
+   "osm": "way/94696833",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Дом шахмат",
+   "place": "Дом шахмат",
+   "address": "улица Бутлерова, 7",
+   "lat": 55.787492,
+   "lon": 49.12735,
+   "hours": {
+    "open": "09:00",
+    "close": "13:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс (chess). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/94696833",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70004",
+   "osm": "node/13002498709",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Paradigma",
+   "place": "Paradigma",
+   "address": null,
+   "lat": 55.792653,
+   "lon": 49.126197,
+   "hours": {
+    "open": "10:00",
+    "close": "20:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/13002498709",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70005",
+   "osm": "node/13112863677",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Badfive",
+   "place": "Badfive",
+   "address": null,
+   "lat": 55.783806,
+   "lon": 49.125894,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/13112863677",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70006",
+   "osm": "node/11459443627",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.784721,
+   "lon": 49.114968,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70007",
+   "osm": "relation/3974317",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Динамо",
+   "place": "Динамо",
+   "address": "улица Горького, 10А",
+   "lat": 55.793173,
+   "lon": 49.129696,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/relation/3974317",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70008",
+   "osm": "node/10844133497",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Рэйсинин додзё",
+   "place": "Рэйсинин додзё",
+   "address": null,
+   "lat": 55.787192,
+   "lon": 49.110979,
+   "hours": {
+    "open": "20:00",
+    "close": "21:30",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс (aikido). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://aikido-school-kazan.business.site/",
+   "phone": "+7 917 8576017",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70009",
+   "osm": "node/11062159564",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Станция метро Ягодичная",
+   "place": "Станция метро Ягодичная",
+   "address": "Московская улица, 58/5",
+   "lat": 55.785732,
+   "lon": 49.111541,
+   "hours": {
+    "open": "08:00",
+    "close": "20:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11062159564",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70010",
+   "osm": "node/9786812749",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Alfa gym",
+   "place": "Alfa gym",
+   "address": "Московская улица, 48",
+   "lat": 55.786835,
+   "lon": 49.10996,
+   "hours": {
+    "open": "07:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://alfa-gym.ru/",
+   "phone": "+7 843 2334445",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70011",
+   "osm": "node/9789086972",
+   "format": "place",
+   "category": "sport",
+   "kind": "Каток",
+   "icon": "⛸",
+   "title": "Murom hockey",
+   "place": "Murom hockey",
+   "address": null,
+   "lat": 55.789536,
+   "lon": 49.107447,
+   "hours": {
+    "open": "10:00",
+    "close": "20:00",
+    "minVisitMin": 40
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 350,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "description": "Каток (ice hockey). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://murom-hockey.com/",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70012",
+   "osm": "node/11262030728",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Аюрведа",
+   "place": "Аюрведа",
+   "address": null,
+   "lat": 55.787454,
+   "lon": 49.138374,
+   "hours": {
+    "open": "09:00",
+    "close": "20:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11262030728",
+   "phone": "+7 966 2504306",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70013",
+   "osm": "node/8154382979",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Mybabyspa",
+   "place": "Mybabyspa",
+   "address": null,
+   "lat": 55.797661,
+   "lon": 49.110524,
+   "hours": {
+    "open": "10:00",
+    "close": "21:30",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://mybabyspa.ru/",
+   "phone": "+7 843 2503518;+7 966 2503518",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70014",
+   "osm": "node/8567695118",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Шаги, студия движения",
+   "place": "Шаги, студия движения",
+   "address": "улица Волкова, 57",
+   "lat": 55.786596,
+   "lon": 49.143282,
+   "hours": {
+    "open": "07:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://shagi-class.ru/",
+   "phone": "+7 987 2117858",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70015",
+   "osm": "node/10937842340",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "12 футов",
+   "place": "12 футов",
+   "address": null,
+   "lat": 55.786764,
+   "lon": 49.144108,
+   "hours": {
+    "open": "09:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс (billiards). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/10937842340",
+   "phone": "+7 843 2381229",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70016",
+   "osm": "node/9783893144",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Вива",
+   "place": "Вива",
+   "address": null,
+   "lat": 55.775472,
+   "lon": 49.130769,
+   "hours": {
+    "open": "15:00",
+    "close": "20:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/9783893144",
+   "phone": "+7 909 3090331",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70017",
+   "osm": "node/11169395772",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "I love supersport",
+   "place": "I love supersport",
+   "address": null,
+   "lat": 55.795974,
+   "lon": 49.099687,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://kazan.ilovesupersport.ru",
+   "phone": "+7 963 7517997",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70018",
+   "osm": "node/12085108796",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Lady Jump",
+   "place": "Lady Jump",
+   "address": null,
+   "lat": 55.785119,
+   "lon": 49.149699,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladyjump.ru/kazan",
+   "phone": "+7 937 0071873",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70019",
+   "osm": "node/6497854485",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Студия йоги \"ЙогаРазума\"",
+   "place": "Студия йоги \"ЙогаРазума\"",
+   "address": null,
+   "lat": 55.793774,
+   "lon": 49.149636,
+   "hours": {
+    "open": "17:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://yogsrszuma.ru",
+   "phone": "+7 927 2495761",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70020",
+   "osm": "node/7760307042",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "ЧудоДети",
+   "place": "ЧудоДети",
+   "address": null,
+   "lat": 55.775694,
+   "lon": 49.148891,
+   "hours": {
+    "open": "08:00",
+    "close": "19:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://xn----gtbemsgeccujakh3d.xn--p1ai/",
+   "phone": "+7 987 0082630",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70021",
+   "osm": "way/973924084",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Крытый центр Урам",
+   "place": "Крытый центр Урам",
+   "address": "Кремлёвская набережная, 33",
+   "lat": 55.804136,
+   "lon": 49.146126,
+   "hours": {
+    "open": "10:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/973924084",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70022",
+   "osm": "node/7966582646",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "X-Fit Ак Барс",
+   "place": "X-Fit Ак Барс",
+   "address": "улица Фатыха Амирхана, 1Г",
+   "lat": 55.81192,
+   "lon": 49.135895,
+   "hours": {
+    "open": "08:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://akbars.xfit.ru/",
+   "phone": "+7 843 2123741",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70023",
+   "osm": "node/8635377392",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Fitness House",
+   "place": "Fitness House",
+   "address": null,
+   "lat": 55.768646,
+   "lon": 49.150201,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.fitnesshouse.ru/fh-kazan-na-spartakovskoj.html",
+   "phone": "+7 800 5050606;+7 843 2060166",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70024",
+   "osm": "node/9923021170",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Zaytun",
+   "place": "Zaytun",
+   "address": null,
+   "lat": 55.809962,
+   "lon": 49.09687,
+   "hours": {
+    "open": "09:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/9923021170",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70025",
+   "osm": "node/12155245668",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Эльмар",
+   "place": "Эльмар",
+   "address": null,
+   "lat": 55.792649,
+   "lon": 49.167944,
+   "hours": {
+    "open": "09:00",
+    "close": "18:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://elmarkazan.ru",
+   "phone": "+7 937 0004878",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70026",
+   "osm": "node/11862401452",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Ri_gym",
+   "place": "Ri_gym",
+   "address": null,
+   "lat": 55.807777,
+   "lon": 49.089494,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11862401452",
+   "phone": "+7 965 603-43-59",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70027",
+   "osm": "node/12714521734",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Планета фитнес",
+   "place": "Планета фитнес",
+   "address": null,
+   "lat": 55.815629,
+   "lon": 49.130469,
+   "hours": {
+    "open": "06:30",
+    "close": "24:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12714521734",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70028",
+   "osm": "node/12112382492",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Осьминожки",
+   "place": "Осьминожки",
+   "address": null,
+   "lat": 55.788271,
+   "lon": 49.173447,
+   "hours": {
+    "open": "09:00",
+    "close": "20:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://osminogki.ru",
+   "phone": "+7 987 1749799",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70029",
+   "osm": "node/12714521751",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Йога студия Резеды Сафиной",
+   "place": "Йога студия Резеды Сафиной",
+   "address": null,
+   "lat": 55.816797,
+   "lon": 49.136253,
+   "hours": {
+    "open": "07:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12714521751",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70030",
+   "osm": "node/10844133547",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Баланс",
+   "place": "Баланс",
+   "address": "улица Гастелло, 20",
+   "lat": 55.790491,
+   "lon": 49.174472,
+   "hours": {
+    "open": "09:00",
+    "close": "20:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/10844133547",
+   "phone": "+7 906 3255979;+7 927 0392987;+7 961 3762737",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70031",
+   "osm": "node/4574490996",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Йога студия",
+   "place": "Йога студия",
+   "address": "Волочаевская улица, 8",
+   "lat": 55.788982,
+   "lon": 49.175456,
+   "hours": {
+    "open": "07:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://yogarazuma.ru",
+   "phone": "+7 843 2495728",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70032",
+   "osm": "node/11084085928",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Fmom",
+   "place": "Fmom",
+   "address": null,
+   "lat": 55.817371,
+   "lon": 49.13788,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11084085928",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70033",
+   "osm": "node/11459458197",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.8187,
+   "lon": 49.116151,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70034",
+   "osm": "node/10844133476",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Нуга",
+   "place": "Нуга",
+   "address": null,
+   "lat": 55.817077,
+   "lon": 49.103667,
+   "hours": {
+    "open": "07:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "http://www.nugastudio.ru/",
+   "phone": "+7 917 5619817",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70035",
+   "osm": "node/14216385102",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Xz Футбол",
+   "place": "Xz Футбол",
+   "address": "Оренбургский тракт, 10А",
+   "lat": 55.761479,
+   "lon": 49.146191,
+   "hours": {
+    "open": "08:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/14216385102",
+   "phone": "+79600525407",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70036",
+   "osm": "node/9831601969",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Shapeme",
+   "place": "Shapeme",
+   "address": null,
+   "lat": 55.818839,
+   "lon": 49.111436,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/9831601969",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70037",
+   "osm": "node/12762042625",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "DDX",
+   "place": "DDX",
+   "address": "улица Николая Ершова, 62Б",
+   "lat": 55.796025,
+   "lon": 49.176181,
+   "hours": {
+    "open": "06:00",
+    "close": "24:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.ddxfitness.ru/clubs/ddx-kazan-art/",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70038",
+   "osm": "node/11049872551",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Шавасана",
+   "place": "Шавасана",
+   "address": null,
+   "lat": 55.820151,
+   "lon": 49.127117,
+   "hours": {
+    "open": "07:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11049872551",
+   "phone": "+7 995 0072629",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70039",
+   "osm": "node/7904286185",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Центр картинга Форсаж",
+   "place": "Центр картинга Форсаж",
+   "address": null,
+   "lat": 55.761404,
+   "lon": 49.15631,
+   "hours": {
+    "open": "10:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс (karting). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.forsagekzn.ru/",
+   "phone": "+78435333777",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70040",
+   "osm": "way/235302951",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Бассейн КАИ «Олимп»",
+   "place": "Бассейн КАИ «Олимп»",
+   "address": "Чистопольская улица, 65А",
+   "lat": 55.821046,
+   "lon": 49.139409,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/235302951",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70041",
+   "osm": "node/10844133490",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Sindikat",
+   "place": "Sindikat",
+   "address": null,
+   "lat": 55.758448,
+   "lon": 49.149613,
+   "hours": {
+    "open": "09:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://sindikatteam.ru/",
+   "phone": "+7 843 2510225",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70042",
+   "osm": "node/10844133426",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Арена swim",
+   "place": "Арена swim",
+   "address": null,
+   "lat": 55.81983,
+   "lon": 49.161557,
+   "hours": {
+    "open": "08:30",
+    "close": "21:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://arenaswim.tilda.ws/",
+   "phone": "+7 903 3190505",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70043",
+   "osm": "node/11166802483",
+   "format": "place",
+   "category": "sport",
+   "kind": "Каток",
+   "icon": "⛸",
+   "title": "Небалет",
+   "place": "Небалет",
+   "address": null,
+   "lat": 55.811651,
+   "lon": 49.067522,
+   "hours": {
+    "open": "08:00",
+    "close": "21:00",
+    "minVisitMin": 40
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 350,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "description": "Каток (ice hockey). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11166802483",
+   "phone": "+7 917 8752525",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70044",
+   "osm": "node/12317869705",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Яратам",
+   "place": "Яратам",
+   "address": null,
+   "lat": 55.782877,
+   "lon": 49.191005,
+   "hours": {
+    "open": "09:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://yaratamstudio.tilda.ws",
+   "phone": "+7 986 9058841",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70045",
+   "osm": "node/7966585057",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "X-Fit Арена",
+   "place": "X-Fit Арена",
+   "address": "проспект Ямашева, 115А",
+   "lat": 55.820819,
+   "lon": 49.162321,
+   "hours": {
+    "open": "08:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://arena.xfit.ru/",
+   "phone": "+7 843 2448027",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70046",
+   "osm": "way/83053276",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Оргсинтез",
+   "place": "Оргсинтез",
+   "address": "проспект Ямашева, 7",
+   "lat": 55.826154,
+   "lon": 49.092544,
+   "hours": {
+    "open": "06:00",
+    "close": "23:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/83053276",
+   "phone": "+7 843 5625240",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70047",
+   "osm": "node/11766205771",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Федерация тхэквондо",
+   "place": "Федерация тхэквондо",
+   "address": null,
+   "lat": 55.746898,
+   "lon": 49.139974,
+   "hours": {
+    "open": "17:00",
+    "close": "18:30",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11766205771",
+   "phone": "+7 904 7604367;+7 987 2332240",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70048",
+   "osm": "node/11172457180",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Осьминожки",
+   "place": "Осьминожки",
+   "address": null,
+   "lat": 55.758889,
+   "lon": 49.177729,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11172457180",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70049",
+   "osm": "way/71169727",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "АквАрена",
+   "place": "АквАрена",
+   "address": "улица Короленко, 28А",
+   "lat": 55.830801,
+   "lon": 49.103451,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.mevis-tat.ru/",
+   "phone": "+7 843 20001024",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70050",
+   "osm": "node/13175474099",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Sports hall",
+   "place": "Sports hall",
+   "address": null,
+   "lat": 55.832134,
+   "lon": 49.13296,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/13175474099",
+   "phone": "+7 987 2252530",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70051",
+   "osm": "node/12053679864",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Maximus",
+   "place": "Maximus",
+   "address": null,
+   "lat": 55.819805,
+   "lon": 49.065902,
+   "hours": {
+    "open": "07:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12053679864",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70052",
+   "osm": "way/168485080",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Планета Фитнес",
+   "place": "Планета Фитнес",
+   "address": "улица Мусина, 39",
+   "lat": 55.833726,
+   "lon": 49.11995,
+   "hours": {
+    "open": "06:30",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/168485080",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70053",
+   "osm": "node/12061002344",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Время детям",
+   "place": "Время детям",
+   "address": null,
+   "lat": 55.826081,
+   "lon": 49.072543,
+   "hours": {
+    "open": "09:00",
+    "close": "19:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12061002344",
+   "phone": "+7 927 4493109",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70054",
+   "osm": "node/8237607380",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Кингдом",
+   "place": "Кингдом",
+   "address": null,
+   "lat": 55.774235,
+   "lon": 49.20152,
+   "hours": {
+    "open": "12:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.kingdomclub.ru/",
+   "phone": "+7 843 2758186;+7 999 2641004",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70055",
+   "osm": "node/11766205815",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Будь собой",
+   "place": "Будь собой",
+   "address": null,
+   "lat": 55.829202,
+   "lon": 49.078409,
+   "hours": {
+    "open": "10:00",
+    "close": "18:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (yoga). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11766205815",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70056",
+   "osm": "node/11459458198",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": "улица Восстания, 28",
+   "lat": 55.834739,
+   "lon": 49.08861,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70057",
+   "osm": "node/10670023026",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Fitness House",
+   "place": "Fitness House",
+   "address": null,
+   "lat": 55.799605,
+   "lon": 49.20844,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.fitnesshouse.ru/fh-samara-v-tk-gudok.html",
+   "phone": "+7 800 5050606",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70058",
+   "osm": "node/12010352364",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Кызлар",
+   "place": "Кызлар",
+   "address": null,
+   "lat": 55.831716,
+   "lon": 49.073008,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12010352364",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70059",
+   "osm": "node/11459458194",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.838559,
+   "lon": 49.144813,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70060",
+   "osm": "node/12040500824",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Дан",
+   "place": "Дан",
+   "address": null,
+   "lat": 55.828302,
+   "lon": 49.061916,
+   "hours": {
+    "open": "07:00",
+    "close": "23:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://skdan.ru",
+   "phone": "+7 996 9093813",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70061",
+   "osm": "node/11414655086",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "DDX",
+   "place": "DDX",
+   "address": null,
+   "lat": 55.829176,
+   "lon": 49.062265,
+   "hours": {
+    "open": "06:00",
+    "close": "24:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.ddxfitness.ru",
+   "phone": "+7 495 2555000",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70062",
+   "osm": "way/375356083",
+   "format": "place",
+   "category": "sport",
+   "kind": "Каток",
+   "icon": "⛸",
+   "title": "Ледовый дворец \"Золотая Шайба\"",
+   "place": "Ледовый дворец \"Золотая Шайба\"",
+   "address": "улица Гаврилова, 48А",
+   "lat": 55.839979,
+   "lon": 49.155365,
+   "hours": {
+    "open": "08:00",
+    "close": "20:00",
+    "minVisitMin": 40
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 350,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "description": "Каток. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/375356083",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70063",
+   "osm": "node/11819963040",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Step by step",
+   "place": "Step by step",
+   "address": null,
+   "lat": 55.776391,
+   "lon": 49.218022,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/11819963040",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70064",
+   "osm": "node/11459458195",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.791637,
+   "lon": 49.222314,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70065",
+   "osm": "node/12544193073",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Keyfit - EMS",
+   "place": "Keyfit - EMS",
+   "address": null,
+   "lat": 55.76609,
+   "lon": 49.220612,
+   "hours": {
+    "open": "08:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://vk.com/keyfit",
+   "phone": "+7 917 3991020",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70066",
+   "osm": "node/12112382439",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Wellness Time",
+   "place": "Wellness Time",
+   "address": null,
+   "lat": 55.79362,
+   "lon": 49.2289,
+   "hours": {
+    "open": "09:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     false,
+     false
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12112382439",
+   "phone": "+7 966 2604114",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70067",
+   "osm": "node/4959582021",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Планета фитнес",
+   "place": "Планета фитнес",
+   "address": null,
+   "lat": 55.744876,
+   "lon": 49.196285,
+   "hours": {
+    "open": "09:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "http://www.fitness-tatarstan.ru",
+   "phone": "+7 843 2007866",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70068",
+   "osm": "way/96259440",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Буревестник",
+   "place": "Буревестник",
+   "address": null,
+   "lat": 55.74019,
+   "lon": 49.188023,
+   "hours": {
+    "open": "06:15",
+    "close": "22:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     false
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming, waterpolo, football, athletics). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/96259440",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70069",
+   "osm": "node/11169373895",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Булат",
+   "place": "Булат",
+   "address": null,
+   "lat": 55.836419,
+   "lon": 49.050055,
+   "hours": {
+    "open": "12:00",
+    "close": "19:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс (shooting). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://cspbulat.ru/",
+   "phone": "+7 843 2264747;+7 987 2264747",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70070",
+   "osm": "node/4988886021",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Максимус",
+   "place": "Максимус",
+   "address": "Минская улица, 9",
+   "lat": 55.773336,
+   "lon": 49.230453,
+   "hours": {
+    "open": "06:00",
+    "close": "24:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://fcmaximus.ru/",
+   "phone": "+78435371515",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70071",
+   "osm": "node/14175671587",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Свой фитнес",
+   "place": "Свой фитнес",
+   "address": null,
+   "lat": 55.730651,
+   "lon": 49.173789,
+   "hours": {
+    "open": "07:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/14175671587",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70072",
+   "osm": "node/12466986348",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Дельфин",
+   "place": "Дельфин",
+   "address": null,
+   "lat": 55.747525,
+   "lon": 49.211363,
+   "hours": {
+    "open": "12:00",
+    "close": "20:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/12466986348",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70073",
+   "osm": "node/14118698150",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "My fitness",
+   "place": "My fitness",
+   "address": null,
+   "lat": 55.728287,
+   "lon": 49.172913,
+   "hours": {
+    "open": "07:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/14118698150",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70074",
+   "osm": "node/8370818149",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Тайсон",
+   "place": "Тайсон",
+   "address": null,
+   "lat": 55.763394,
+   "lon": 49.232166,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.bc-tyson.ru/",
+   "phone": "+7 967 7721267",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70075",
+   "osm": "node/11459458196",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.76462,
+   "lon": 49.233155,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70076",
+   "osm": "node/14118698151",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Девушка с ковриком",
+   "place": "Девушка с ковриком",
+   "address": null,
+   "lat": 55.728201,
+   "lon": 49.173057,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/14118698151",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70077",
+   "osm": "node/8752547408",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Prosto",
+   "place": "Prosto",
+   "address": null,
+   "lat": 55.73892,
+   "lon": 49.202118,
+   "hours": {
+    "open": "10:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://n502241.yclients.com/",
+   "phone": "+7 927 4033337;+7 927 4513715;+7 986 9336065",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70078",
+   "osm": "node/10844128472",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Крабики",
+   "place": "Крабики",
+   "address": null,
+   "lat": 55.781771,
+   "lon": 49.240857,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/10844128472",
+   "phone": "+7 843 2255060;+7 987 2255060",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70079",
+   "osm": "node/14118698159",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Ufit",
+   "place": "Ufit",
+   "address": null,
+   "lat": 55.724238,
+   "lon": 49.170006,
+   "hours": {
+    "open": "09:00",
+    "close": "18:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/14118698159",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70080",
+   "osm": "node/11459458193",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.855567,
+   "lon": 49.083702,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70081",
+   "osm": "node/14024847936",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Лефитнес",
+   "place": "Лефитнес",
+   "address": null,
+   "lat": 55.850875,
+   "lon": 49.061376,
+   "hours": {
+    "open": "08:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/node/14024847936",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70082",
+   "osm": "node/11459458199",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Lady Stretch",
+   "place": "Lady Stretch",
+   "address": null,
+   "lat": 55.742202,
+   "lon": 49.220485,
+   "hours": {
+    "open": "09:00",
+    "close": "14:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://ladystretch.com/kazan",
+   "phone": "+7 843 5004341",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70083",
+   "osm": "way/183687355",
+   "format": "place",
+   "category": "sport",
+   "kind": "Бассейн",
+   "icon": "🏊",
+   "title": "Акчарлак",
+   "place": "Акчарлак",
+   "address": "улица Кул Гали, 13А",
+   "lat": 55.750512,
+   "lon": 49.234537,
+   "hours": {
+    "open": "07:30",
+    "close": "22:00",
+    "minVisitMin": 45
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 60,
+   "price": 500,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "rest"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "description": "Бассейн (swimming). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.openstreetmap.org/way/183687355",
+   "phone": null,
+   "source": "osm"
+  },
+  {
+   "id": "osm-70084",
+   "osm": "node/9529242265",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Bright Fit",
+   "place": "Bright Fit",
+   "address": null,
+   "lat": 55.75392,
+   "lon": 49.242278,
+   "hours": {
+    "open": "09:00",
+    "close": "22:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес. Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://www.брайтфит.рф/",
+   "phone": "+7 843 2270001",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70085",
+   "osm": "node/5531388870",
+   "format": "place",
+   "category": "sport",
+   "kind": "Фитнес",
+   "icon": "🏋",
+   "title": "Avia_Gym",
+   "place": "Avia_Gym",
+   "address": null,
+   "lat": 55.865438,
+   "lon": 49.081158,
+   "hours": {
+    "open": "09:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 800,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Фитнес (fitness, gymnastics). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "http://clubcsl.ru",
+   "phone": "+7 939 3323523",
+   "source": "osm"
+  },
+  {
+   "id": "osm-70086",
+   "osm": "node/12317847555",
+   "format": "place",
+   "category": "sport",
+   "kind": "Спорткомплекс",
+   "icon": "🏟",
+   "title": "Paintball City",
+   "place": "Paintball City",
+   "address": null,
+   "lat": 55.690367,
+   "lon": 49.111351,
+   "hours": {
+    "open": "08:00",
+    "close": "21:00",
+    "minVisitMin": 60
+   },
+   "schedule": {
+    "days": [
+     true,
+     true,
+     true,
+     true,
+     true,
+     true,
+     true
+    ]
+   },
+   "durationMin": 90,
+   "price": 400,
+   "priceEstimate": true,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move"
+   ],
+   "photo": "sport",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Спорткомплекс (paintball). Разовое посещение — оценка, точные цены и правила — на сайте объекта.",
+   "link": "https://paintballcity.2gis.biz",
+   "phone": "+7 843 2391956;+7 927 0391956",
+   "source": "osm"
+  }
+ ],
+ "groups": [
+  {
+   "id": "sg-60001",
+   "key": "relation/16748946|figure_skating|0",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 5–7 лет",
+   "place": "Татнефть арена",
+   "address": "Чистопольская улица, 42",
+   "lat": 55.817931,
+   "lon": 49.125044,
+   "time": "17:30",
+   "durationMin": 45,
+   "price": 600,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (5–7 лет): вт, чт в 17:30, 45 мин. Первое занятие — пробное.",
+   "link": "http://www.tatneftarena.ru",
+   "phone": "+7 843 5278585",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "5–7 лет",
+    "days": "вт, чт",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60002",
+   "key": "relation/16748946|figure_skating|1",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 8–12 лет",
+   "place": "Татнефть арена",
+   "address": "Чистопольская улица, 42",
+   "lat": 55.817931,
+   "lon": 49.125044,
+   "time": "18:30",
+   "durationMin": 60,
+   "price": 650,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (8–12 лет): пн, ср, пт в 18:30, 60 мин. Первое занятие — пробное.",
+   "link": "http://www.tatneftarena.ru",
+   "phone": "+7 843 5278585",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "8–12 лет",
+    "days": "пн, ср, пт",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60003",
+   "key": "relation/16748946|figure_skating|2",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Продолжающие, 10–14 лет",
+   "place": "Татнефть арена",
+   "address": "Чистопольская улица, 42",
+   "lat": 55.817931,
+   "lon": 49.125044,
+   "time": "16:00",
+   "durationMin": 75,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, продолжающие (10–14 лет): вт, чт, сб в 16:00, 75 мин. Первое занятие — пробное.",
+   "link": "http://www.tatneftarena.ru",
+   "phone": "+7 843 5278585",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Продолжающие",
+    "ages": "10–14 лет",
+    "days": "вт, чт, сб",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60004",
+   "key": "relation/16748946|figure_skating|3",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Взрослые с нуля, от 18 лет",
+   "place": "Татнефть арена",
+   "address": "Чистопольская улица, 42",
+   "lat": 55.817931,
+   "lon": 49.125044,
+   "time": "20:30",
+   "durationMin": 60,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, взрослые с нуля (от 18 лет): вт, пт в 20:30, 60 мин. Первое занятие — пробное.",
+   "link": "http://www.tatneftarena.ru",
+   "phone": "+7 843 5278585",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Взрослые с нуля",
+    "ages": "от 18 лет",
+    "days": "вт, пт",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60005",
+   "key": "way/70910656|figure_skating|0",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 5–7 лет",
+   "place": "Ватан",
+   "address": "улица Маршала Чуйкова, 8",
+   "lat": 55.833373,
+   "lon": 49.108385,
+   "time": "18:00",
+   "durationMin": 45,
+   "price": 650,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (5–7 лет): ср, пт в 18:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/70910656",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "5–7 лет",
+    "days": "ср, пт",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60006",
+   "key": "way/70910656|figure_skating|1",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 8–12 лет",
+   "place": "Ватан",
+   "address": "улица Маршала Чуйкова, 8",
+   "lat": 55.833373,
+   "lon": 49.108385,
+   "time": "19:00",
+   "durationMin": 60,
+   "price": 700,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (8–12 лет): вт, чт, сб в 19:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/70910656",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "8–12 лет",
+    "days": "вт, чт, сб",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60007",
+   "key": "way/70910656|figure_skating|2",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Продолжающие, 10–14 лет",
+   "place": "Ватан",
+   "address": "улица Маршала Чуйкова, 8",
+   "lat": 55.833373,
+   "lon": 49.108385,
+   "time": "16:30",
+   "durationMin": 75,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, продолжающие (10–14 лет): ср, пт, вс в 16:30, 75 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/70910656",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Продолжающие",
+    "ages": "10–14 лет",
+    "days": "ср, пт, вс",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60008",
+   "key": "way/70910656|figure_skating|3",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Взрослые с нуля, от 18 лет",
+   "place": "Ватан",
+   "address": "улица Маршала Чуйкова, 8",
+   "lat": 55.833373,
+   "lon": 49.108385,
+   "time": "21:00",
+   "durationMin": 60,
+   "price": 850,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, взрослые с нуля (от 18 лет): ср, сб в 21:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/70910656",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Взрослые с нуля",
+    "ages": "от 18 лет",
+    "days": "ср, сб",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60009",
+   "key": "way/83716887|figure_skating|0",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 5–7 лет",
+   "place": "Ледовый дворец Зилант",
+   "address": "улица Хусаина Мавлютова, 17В",
+   "lat": 55.751699,
+   "lon": 49.191416,
+   "time": "18:30",
+   "durationMin": 45,
+   "price": 700,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (5–7 лет): вт, чт в 18:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/ledovyy-dvorec-zilant",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "5–7 лет",
+    "days": "вт, чт",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60010",
+   "key": "way/83716887|figure_skating|1",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 8–12 лет",
+   "place": "Ледовый дворец Зилант",
+   "address": "улица Хусаина Мавлютова, 17В",
+   "lat": 55.751699,
+   "lon": 49.191416,
+   "time": "19:30",
+   "durationMin": 60,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (8–12 лет): пн, ср, пт в 19:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/ledovyy-dvorec-zilant",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "8–12 лет",
+    "days": "пн, ср, пт",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60011",
+   "key": "way/83716887|figure_skating|2",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Продолжающие, 10–14 лет",
+   "place": "Ледовый дворец Зилант",
+   "address": "улица Хусаина Мавлютова, 17В",
+   "lat": 55.751699,
+   "lon": 49.191416,
+   "time": "17:00",
+   "durationMin": 75,
+   "price": 850,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, продолжающие (10–14 лет): вт, чт, сб в 17:00, 75 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/ledovyy-dvorec-zilant",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Продолжающие",
+    "ages": "10–14 лет",
+    "days": "вт, чт, сб",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60012",
+   "key": "way/83716887|figure_skating|3",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Взрослые с нуля, от 18 лет",
+   "place": "Ледовый дворец Зилант",
+   "address": "улица Хусаина Мавлютова, 17В",
+   "lat": 55.751699,
+   "lon": 49.191416,
+   "time": "21:30",
+   "durationMin": 60,
+   "price": 900,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, взрослые с нуля (от 18 лет): вт, пт в 21:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/ledovyy-dvorec-zilant",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Взрослые с нуля",
+    "ages": "от 18 лет",
+    "days": "вт, пт",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60013",
+   "key": "way/91641118|figure_skating|0",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 5–7 лет",
+   "place": "Дворец спорта",
+   "address": "Московская улица, 1",
+   "lat": 55.794103,
+   "lon": 49.099502,
+   "time": "17:30",
+   "durationMin": 45,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (5–7 лет): ср, пт в 17:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/91641118",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "5–7 лет",
+    "days": "ср, пт",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60014",
+   "key": "way/91641118|figure_skating|1",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 8–12 лет",
+   "place": "Дворец спорта",
+   "address": "Московская улица, 1",
+   "lat": 55.794103,
+   "lon": 49.099502,
+   "time": "18:30",
+   "durationMin": 60,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (8–12 лет): вт, чт, сб в 18:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/91641118",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "8–12 лет",
+    "days": "вт, чт, сб",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60015",
+   "key": "way/91641118|figure_skating|2",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Продолжающие, 10–14 лет",
+   "place": "Дворец спорта",
+   "address": "Московская улица, 1",
+   "lat": 55.794103,
+   "lon": 49.099502,
+   "time": "16:00",
+   "durationMin": 75,
+   "price": 900,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, продолжающие (10–14 лет): ср, пт, вс в 16:00, 75 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/91641118",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Продолжающие",
+    "ages": "10–14 лет",
+    "days": "ср, пт, вс",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60016",
+   "key": "way/91641118|figure_skating|3",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Взрослые с нуля, от 18 лет",
+   "place": "Дворец спорта",
+   "address": "Московская улица, 1",
+   "lat": 55.794103,
+   "lon": 49.099502,
+   "time": "20:30",
+   "durationMin": 60,
+   "price": 950,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, взрослые с нуля (от 18 лет): ср, сб в 20:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/91641118",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Взрослые с нуля",
+    "ages": "от 18 лет",
+    "days": "ср, сб",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60017",
+   "key": "way/71414996|figure_skating|0",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 5–7 лет",
+   "place": "Ледовая арена «Баско»",
+   "address": "улица Степана Халтурина, 3",
+   "lat": 55.814898,
+   "lon": 49.054155,
+   "time": "18:00",
+   "durationMin": 45,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (5–7 лет): вт, чт в 18:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/71414996",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "5–7 лет",
+    "days": "вт, чт",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60018",
+   "key": "way/71414996|figure_skating|1",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 8–12 лет",
+   "place": "Ледовая арена «Баско»",
+   "address": "улица Степана Халтурина, 3",
+   "lat": 55.814898,
+   "lon": 49.054155,
+   "time": "19:00",
+   "durationMin": 60,
+   "price": 850,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (8–12 лет): пн, ср, пт в 19:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/71414996",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "8–12 лет",
+    "days": "пн, ср, пт",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60019",
+   "key": "way/71414996|figure_skating|2",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Продолжающие, 10–14 лет",
+   "place": "Ледовая арена «Баско»",
+   "address": "улица Степана Халтурина, 3",
+   "lat": 55.814898,
+   "lon": 49.054155,
+   "time": "16:30",
+   "durationMin": 75,
+   "price": 950,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, продолжающие (10–14 лет): вт, чт, сб в 16:30, 75 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/71414996",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Продолжающие",
+    "ages": "10–14 лет",
+    "days": "вт, чт, сб",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60020",
+   "key": "way/71414996|figure_skating|3",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Взрослые с нуля, от 18 лет",
+   "place": "Ледовая арена «Баско»",
+   "address": "улица Степана Халтурина, 3",
+   "lat": 55.814898,
+   "lon": 49.054155,
+   "time": "21:00",
+   "durationMin": 60,
+   "price": 1000,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, взрослые с нуля (от 18 лет): вт, пт в 21:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/71414996",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Взрослые с нуля",
+    "ages": "от 18 лет",
+    "days": "вт, пт",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60021",
+   "key": "way/375356083|figure_skating|0",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 5–7 лет",
+   "place": "Ледовый дворец \"Золотая Шайба\"",
+   "address": "улица Гаврилова, 48А",
+   "lat": 55.839979,
+   "lon": 49.155365,
+   "time": "18:30",
+   "durationMin": 45,
+   "price": 850,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (5–7 лет): ср, пт в 18:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/375356083",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "5–7 лет",
+    "days": "ср, пт",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60022",
+   "key": "way/375356083|figure_skating|1",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Начинающие, 8–12 лет",
+   "place": "Ледовый дворец \"Золотая Шайба\"",
+   "address": "улица Гаврилова, 48А",
+   "lat": 55.839979,
+   "lon": 49.155365,
+   "time": "19:30",
+   "durationMin": 60,
+   "price": 900,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, начинающие (8–12 лет): вт, чт, сб в 19:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/375356083",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Начинающие",
+    "ages": "8–12 лет",
+    "days": "вт, чт, сб",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60023",
+   "key": "way/375356083|figure_skating|2",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Продолжающие, 10–14 лет",
+   "place": "Ледовый дворец \"Золотая Шайба\"",
+   "address": "улица Гаврилова, 48А",
+   "lat": 55.839979,
+   "lon": 49.155365,
+   "time": "17:00",
+   "durationMin": 75,
+   "price": 1000,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, продолжающие (10–14 лет): ср, пт, вс в 17:00, 75 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/375356083",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     true
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Продолжающие",
+    "ages": "10–14 лет",
+    "days": "ср, пт, вс",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60024",
+   "key": "way/375356083|figure_skating|3",
+   "category": "sport",
+   "kind": "Фигурное катание",
+   "icon": "⛸",
+   "title": "Взрослые с нуля, от 18 лет",
+   "place": "Ледовый дворец \"Золотая Шайба\"",
+   "address": "улица Гаврилова, 48А",
+   "lat": 55.839979,
+   "lon": 49.155365,
+   "time": "21:30",
+   "durationMin": 60,
+   "price": 1050,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "skating",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Фигурное катание, взрослые с нуля (от 18 лет): ср, сб в 21:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/375356083",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "figure_skating",
+    "level": "Взрослые с нуля",
+    "ages": "от 18 лет",
+    "days": "ср, сб",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60025",
+   "key": "way/183104686|swimming|0",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Обучение, 6–9 лет",
+   "place": "Дворец водных видов спорта",
+   "address": "улица Сибгата Хакима, 70",
+   "lat": 55.816695,
+   "lon": 49.149883,
+   "time": "16:30",
+   "durationMin": 45,
+   "price": 550,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, обучение (6–9 лет): пн, ср, пт в 16:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/dvorec-vodnyh-vidov-sporta",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Обучение",
+    "ages": "6–9 лет",
+    "days": "пн, ср, пт",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60026",
+   "key": "way/183104686|swimming|1",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Техника, 10–14 лет",
+   "place": "Дворец водных видов спорта",
+   "address": "улица Сибгата Хакима, 70",
+   "lat": 55.816695,
+   "lon": 49.149883,
+   "time": "18:00",
+   "durationMin": 60,
+   "price": 600,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, техника (10–14 лет): вт, чт в 18:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/dvorec-vodnyh-vidov-sporta",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Техника",
+    "ages": "10–14 лет",
+    "days": "вт, чт",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60027",
+   "key": "way/183104686|swimming|2",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Взрослые, обучение, от 18 лет",
+   "place": "Дворец водных видов спорта",
+   "address": "улица Сибгата Хакима, 70",
+   "lat": 55.816695,
+   "lon": 49.149883,
+   "time": "20:00",
+   "durationMin": 60,
+   "price": 700,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, взрослые, обучение (от 18 лет): пн, ср в 20:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/dvorec-vodnyh-vidov-sporta",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Взрослые, обучение",
+    "ages": "от 18 лет",
+    "days": "пн, ср",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60028",
+   "key": "way/183104686|swimming|3",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Аквааэробика, от 18 лет",
+   "place": "Дворец водных видов спорта",
+   "address": "улица Сибгата Хакима, 70",
+   "lat": 55.816695,
+   "lon": 49.149883,
+   "time": "11:00",
+   "durationMin": 45,
+   "price": 500,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, аквааэробика (от 18 лет): сб, вс в 11:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://unifirst-services.ru/objects/dvorec-vodnyh-vidov-sporta",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Аквааэробика",
+    "ages": "от 18 лет",
+    "days": "сб, вс",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60029",
+   "key": "way/235302951|swimming|0",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Обучение, 6–9 лет",
+   "place": "Бассейн КАИ «Олимп»",
+   "address": "Чистопольская улица, 65А",
+   "lat": 55.821046,
+   "lon": 49.139409,
+   "time": "17:00",
+   "durationMin": 45,
+   "price": 600,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, обучение (6–9 лет): вт, чт, сб в 17:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/235302951",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Обучение",
+    "ages": "6–9 лет",
+    "days": "вт, чт, сб",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60030",
+   "key": "way/235302951|swimming|1",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Техника, 10–14 лет",
+   "place": "Бассейн КАИ «Олимп»",
+   "address": "Чистопольская улица, 65А",
+   "lat": 55.821046,
+   "lon": 49.139409,
+   "time": "18:30",
+   "durationMin": 60,
+   "price": 650,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, техника (10–14 лет): ср, пт в 18:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/235302951",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Техника",
+    "ages": "10–14 лет",
+    "days": "ср, пт",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60031",
+   "key": "way/235302951|swimming|2",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Взрослые, обучение, от 18 лет",
+   "place": "Бассейн КАИ «Олимп»",
+   "address": "Чистопольская улица, 65А",
+   "lat": 55.821046,
+   "lon": 49.139409,
+   "time": "20:30",
+   "durationMin": 60,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, взрослые, обучение (от 18 лет): вт, чт в 20:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/235302951",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Взрослые, обучение",
+    "ages": "от 18 лет",
+    "days": "вт, чт",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60032",
+   "key": "way/235302951|swimming|3",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Аквааэробика, от 18 лет",
+   "place": "Бассейн КАИ «Олимп»",
+   "address": "Чистопольская улица, 65А",
+   "lat": 55.821046,
+   "lon": 49.139409,
+   "time": "11:30",
+   "durationMin": 45,
+   "price": 550,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, аквааэробика (от 18 лет): вс, пн в 11:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/235302951",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Аквааэробика",
+    "ages": "от 18 лет",
+    "days": "пн, вс",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60033",
+   "key": "way/83053276|swimming|0",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Обучение, 6–9 лет",
+   "place": "Оргсинтез",
+   "address": "проспект Ямашева, 7",
+   "lat": 55.826154,
+   "lon": 49.092544,
+   "time": "17:30",
+   "durationMin": 45,
+   "price": 650,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, обучение (6–9 лет): пн, ср, пт в 17:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/83053276",
+   "phone": "+7 843 5625240",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Обучение",
+    "ages": "6–9 лет",
+    "days": "пн, ср, пт",
+    "spots": 5
+   }
+  },
+  {
+   "id": "sg-60034",
+   "key": "way/83053276|swimming|1",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Техника, 10–14 лет",
+   "place": "Оргсинтез",
+   "address": "проспект Ямашева, 7",
+   "lat": 55.826154,
+   "lon": 49.092544,
+   "time": "19:00",
+   "durationMin": 60,
+   "price": 700,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, техника (10–14 лет): вт, чт в 19:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/83053276",
+   "phone": "+7 843 5625240",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Техника",
+    "ages": "10–14 лет",
+    "days": "вт, чт",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60035",
+   "key": "way/83053276|swimming|2",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Взрослые, обучение, от 18 лет",
+   "place": "Оргсинтез",
+   "address": "проспект Ямашева, 7",
+   "lat": 55.826154,
+   "lon": 49.092544,
+   "time": "21:00",
+   "durationMin": 60,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, взрослые, обучение (от 18 лет): пн, ср в 21:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/83053276",
+   "phone": "+7 843 5625240",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Взрослые, обучение",
+    "ages": "от 18 лет",
+    "days": "пн, ср",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60036",
+   "key": "way/83053276|swimming|3",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Аквааэробика, от 18 лет",
+   "place": "Оргсинтез",
+   "address": "проспект Ямашева, 7",
+   "lat": 55.826154,
+   "lon": 49.092544,
+   "time": "12:00",
+   "durationMin": 45,
+   "price": 600,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, аквааэробика (от 18 лет): сб, вс в 12:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/83053276",
+   "phone": "+7 843 5625240",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Аквааэробика",
+    "ages": "от 18 лет",
+    "days": "сб, вс",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60037",
+   "key": "way/71169727|swimming|0",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Обучение, 6–9 лет",
+   "place": "АквАрена",
+   "address": "улица Короленко, 28А",
+   "lat": 55.830801,
+   "lon": 49.103451,
+   "time": "16:30",
+   "durationMin": 45,
+   "price": 700,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, обучение (6–9 лет): вт, чт, сб в 16:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.mevis-tat.ru/",
+   "phone": "+7 843 20001024",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Обучение",
+    "ages": "6–9 лет",
+    "days": "вт, чт, сб",
+    "spots": 6
+   }
+  },
+  {
+   "id": "sg-60038",
+   "key": "way/71169727|swimming|1",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Техника, 10–14 лет",
+   "place": "АквАрена",
+   "address": "улица Короленко, 28А",
+   "lat": 55.830801,
+   "lon": 49.103451,
+   "time": "18:00",
+   "durationMin": 60,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, техника (10–14 лет): ср, пт в 18:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.mevis-tat.ru/",
+   "phone": "+7 843 20001024",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Техника",
+    "ages": "10–14 лет",
+    "days": "ср, пт",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60039",
+   "key": "way/71169727|swimming|2",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Взрослые, обучение, от 18 лет",
+   "place": "АквАрена",
+   "address": "улица Короленко, 28А",
+   "lat": 55.830801,
+   "lon": 49.103451,
+   "time": "20:00",
+   "durationMin": 60,
+   "price": 850,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, взрослые, обучение (от 18 лет): вт, чт в 20:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.mevis-tat.ru/",
+   "phone": "+7 843 20001024",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Взрослые, обучение",
+    "ages": "от 18 лет",
+    "days": "вт, чт",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60040",
+   "key": "way/71169727|swimming|3",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Аквааэробика, от 18 лет",
+   "place": "АквАрена",
+   "address": "улица Короленко, 28А",
+   "lat": 55.830801,
+   "lon": 49.103451,
+   "time": "11:00",
+   "durationMin": 45,
+   "price": 650,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, аквааэробика (от 18 лет): вс, пн в 11:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.mevis-tat.ru/",
+   "phone": "+7 843 20001024",
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Аквааэробика",
+    "ages": "от 18 лет",
+    "days": "пн, вс",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60041",
+   "key": "way/96259440|swimming|0",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Обучение, 6–9 лет",
+   "place": "Буревестник",
+   "address": null,
+   "lat": 55.74019,
+   "lon": 49.188023,
+   "time": "17:00",
+   "durationMin": 45,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, обучение (6–9 лет): пн, ср, пт в 17:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/96259440",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Обучение",
+    "ages": "6–9 лет",
+    "days": "пн, ср, пт",
+    "spots": 7
+   }
+  },
+  {
+   "id": "sg-60042",
+   "key": "way/96259440|swimming|1",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Техника, 10–14 лет",
+   "place": "Буревестник",
+   "address": null,
+   "lat": 55.74019,
+   "lon": 49.188023,
+   "time": "18:30",
+   "durationMin": 60,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, техника (10–14 лет): вт, чт в 18:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/96259440",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Техника",
+    "ages": "10–14 лет",
+    "days": "вт, чт",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60043",
+   "key": "way/96259440|swimming|2",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Взрослые, обучение, от 18 лет",
+   "place": "Буревестник",
+   "address": null,
+   "lat": 55.74019,
+   "lon": 49.188023,
+   "time": "20:30",
+   "durationMin": 60,
+   "price": 900,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, взрослые, обучение (от 18 лет): пн, ср в 20:30, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/96259440",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Взрослые, обучение",
+    "ages": "от 18 лет",
+    "days": "пн, ср",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60044",
+   "key": "way/96259440|swimming|3",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Аквааэробика, от 18 лет",
+   "place": "Буревестник",
+   "address": null,
+   "lat": 55.74019,
+   "lon": 49.188023,
+   "time": "11:30",
+   "durationMin": 45,
+   "price": 700,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, аквааэробика (от 18 лет): сб, вс в 11:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/96259440",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true,
+     true
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Аквааэробика",
+    "ages": "от 18 лет",
+    "days": "сб, вс",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60045",
+   "key": "way/183687355|swimming|0",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Обучение, 6–9 лет",
+   "place": "Акчарлак",
+   "address": "улица Кул Гали, 13А",
+   "lat": 55.750512,
+   "lon": 49.234537,
+   "time": "17:30",
+   "durationMin": 45,
+   "price": 800,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, обучение (6–9 лет): вт, чт, сб в 17:30, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/183687355",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     true,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Обучение",
+    "ages": "6–9 лет",
+    "days": "вт, чт, сб",
+    "spots": 8
+   }
+  },
+  {
+   "id": "sg-60046",
+   "key": "way/183687355|swimming|1",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Техника, 10–14 лет",
+   "place": "Акчарлак",
+   "address": "улица Кул Гали, 13А",
+   "lat": 55.750512,
+   "lon": 49.234537,
+   "time": "19:00",
+   "durationMin": 60,
+   "price": 850,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, техника (10–14 лет): ср, пт в 19:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/183687355",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     false,
+     true,
+     false,
+     true,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Техника",
+    "ages": "10–14 лет",
+    "days": "ср, пт",
+    "spots": 3
+   }
+  },
+  {
+   "id": "sg-60047",
+   "key": "way/183687355|swimming|2",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Взрослые, обучение, от 18 лет",
+   "place": "Акчарлак",
+   "address": "улица Кул Гали, 13А",
+   "lat": 55.750512,
+   "lon": 49.234537,
+   "time": "21:00",
+   "durationMin": 60,
+   "price": 950,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, взрослые, обучение (от 18 лет): вт, чт в 21:00, 60 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/183687355",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     false,
+     true,
+     false,
+     true,
+     false,
+     false,
+     false
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Взрослые, обучение",
+    "ages": "от 18 лет",
+    "days": "вт, чт",
+    "spots": 4
+   }
+  },
+  {
+   "id": "sg-60048",
+   "key": "way/183687355|swimming|3",
+   "category": "sport",
+   "kind": "Плавание",
+   "icon": "🏊",
+   "title": "Аквааэробика, от 18 лет",
+   "place": "Акчарлак",
+   "address": "улица Кул Гали, 13А",
+   "lat": 55.750512,
+   "lon": 49.234537,
+   "time": "12:00",
+   "durationMin": 45,
+   "price": 750,
+   "free": false,
+   "pushkin": false,
+   "moods": [
+    "move",
+    "learn"
+   ],
+   "photo": "swimming",
+   "outdoor": false,
+   "manualOnly": true,
+   "description": "Тестовая группа: расписание, возраст и цена вымышлены, площадка настоящая. Плавание, аквааэробика (от 18 лет): вс, пн в 12:00, 45 мин. Первое занятие — пробное.",
+   "link": "https://www.openstreetmap.org/way/183687355",
+   "phone": null,
+   "source": "demo",
+   "schedule": {
+    "days": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ]
+   },
+   "group": {
+    "sport": "swimming",
+    "level": "Аквааэробика",
+    "ages": "от 18 лет",
+    "days": "пн, вс",
+    "spots": 5
+   }
+  }
+ ]
+}

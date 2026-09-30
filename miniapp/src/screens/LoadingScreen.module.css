@@ -1,0 +1,104 @@
+.root {
+  display: flex;
+  min-height: calc(100dvh - 128px);
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin-top: 36px;
+  color: var(--text);
+  font: 700 38px/1.1 var(--font);
+}
+
+.text {
+  max-width: 260px;
+  margin-top: 16px;
+  color: var(--text-muted);
+  font: 400 16px/22px var(--font);
+}
+
+.lumi {
+  margin-top: 40px;
+  animation: glide 2s ease-in-out infinite alternate;
+}
+
+.progress {
+  position: relative;
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.track {
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  left: 14px;
+  height: 3px;
+  margin-top: -1.5px;
+  border-radius: 2px;
+  background: var(--primary-disabled);
+}
+
+.fill {
+  display: block;
+  height: 100%;
+  border-radius: 2px;
+  background: var(--tail-h);
+  transition: width 0.5s ease;
+}
+
+.point {
+  position: relative;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--primary-disabled);
+  color: var(--on-primary);
+  font: 700 14px/1 var(--font);
+  transition: background-color 0.3s ease;
+}
+
+.done,
+.now {
+  background: var(--primary);
+}
+
+.now {
+  box-shadow: 0 0 0 6px rgba(71, 26, 255, 0.15);
+  animation: pulse 1s ease-in-out infinite;
+}
+
+.stepLabel {
+  margin-top: 18px;
+  color: var(--text);
+  font: 500 14px/18px var(--font);
+}
+
+@keyframes glide {
+  from {
+    transform: translateX(-14px) rotate(-2deg);
+  }
+  to {
+    transform: translateX(14px) rotate(2deg);
+  }
+}
+
+@keyframes pulse {
+  50% {
+    box-shadow: 0 0 0 10px rgba(71, 26, 255, 0.08);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lumi,
+  .now {
+    animation: none;
+  }
+}

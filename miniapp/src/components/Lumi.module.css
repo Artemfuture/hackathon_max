@@ -1,0 +1,87 @@
+.root {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stack {
+  flex-direction: column-reverse;
+  gap: 6px;
+}
+
+.img {
+  height: auto;
+  flex: none;
+  user-select: none;
+  animation: lumi-in 0.45s cubic-bezier(0.2, 0.8, 0.2, 1.2) both;
+}
+
+.float {
+  animation:
+    lumi-in 0.45s cubic-bezier(0.2, 0.8, 0.2, 1.2) both,
+    lumi-float 3.2s ease-in-out 0.45s infinite;
+}
+
+.bubble {
+  position: relative;
+  max-width: 230px;
+  padding: 10px 14px;
+  border: 1px solid var(--tint-border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: 0 6px 18px rgba(71, 26, 255, 0.08);
+  color: var(--text);
+  font: 500 14px/19px var(--font);
+  animation: bubble-in 0.35s ease 0.25s both;
+}
+
+.bubbleRight {
+  order: 2;
+  border-bottom-left-radius: 6px;
+}
+
+.bubbleTop {
+  align-self: flex-start;
+  border-bottom-left-radius: 6px;
+}
+
+@keyframes lumi-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes lumi-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes bubble-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .img,
+  .float,
+  .bubble {
+    animation: none;
+  }
+}

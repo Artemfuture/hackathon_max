@@ -1,0 +1,78 @@
+.strip {
+  display: flex;
+  gap: 8px;
+  margin: 14px calc(-1 * var(--gutter)) 0;
+  padding: 0 var(--gutter) 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.strip::-webkit-scrollbar {
+  display: none;
+}
+
+.day {
+  position: relative;
+  display: flex;
+  min-width: 62px;
+  height: 58px;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 0 10px;
+  border: 1.5px solid transparent;
+  border-radius: 16px;
+  background: var(--surface-muted);
+  color: var(--text-secondary);
+}
+
+.all {
+  font: 600 14px/17px var(--font);
+}
+
+.weekday {
+  font: 500 12px/14px var(--font);
+}
+
+.weekday::first-letter {
+  text-transform: uppercase;
+}
+
+.date {
+  color: var(--text);
+  font: 600 14px/17px var(--font);
+  white-space: nowrap;
+}
+
+.on {
+  border-color: var(--primary);
+  background: var(--surface);
+  color: var(--primary);
+}
+
+.on .date {
+  color: var(--primary);
+}
+
+.calendar {
+  color: var(--primary);
+}
+
+.mark {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .strip {
+    cursor: grab;
+    user-select: none;
+  }
+}

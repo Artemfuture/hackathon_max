@@ -1,0 +1,76 @@
+.button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+  font-weight: 500;
+  line-height: normal;
+  transition:
+    background-color 0.12s ease,
+    color 0.12s ease;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.primary {
+  height: 56px;
+  padding: 16px 20px;
+  border-radius: 18px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 16px;
+}
+
+.primary:active:not(:disabled) {
+  background: var(--primary-pressed);
+}
+
+.primary:disabled {
+  background: var(--primary-disabled);
+  color: var(--primary-disabled-text);
+}
+
+.secondary,
+.card,
+.cardSm {
+  background: var(--surface-muted);
+  color: var(--text-strong-muted);
+}
+
+.secondary:active:not(:disabled),
+.card:active:not(:disabled),
+.cardSm:active:not(:disabled) {
+  background: var(--soft-pressed);
+  color: var(--soft-pressed-text);
+}
+
+.secondary:disabled,
+.card:disabled,
+.cardSm:disabled {
+  background: var(--soft-disabled);
+  color: var(--soft-disabled-text);
+}
+
+.secondary {
+  height: 52px;
+  padding: 16px 20px;
+  border-radius: 16px;
+  font-size: 16px;
+}
+
+.card {
+  height: 42px;
+  padding: 16px 20px;
+  border-radius: 14px;
+  font-size: 14px;
+}
+
+.cardSm {
+  height: 30px;
+  padding: 7px 20px;
+  border-radius: 12px;
+  font-size: 12px;
+}

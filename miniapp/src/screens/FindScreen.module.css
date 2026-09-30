@@ -1,0 +1,259 @@
+.root {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom));
+  left: 0;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--bg);
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  padding: max(12px, env(safe-area-inset-top)) var(--gutter) 0;
+  pointer-events: none;
+}
+
+.top > * {
+  pointer-events: auto;
+}
+
+.searchRow {
+  display: flex;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  min-width: 0;
+  height: 48px;
+  flex: 1;
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 4px 16px rgba(29, 20, 76, 0.14);
+  color: var(--text-muted);
+}
+
+.search input {
+  min-width: 0;
+  flex: 1;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font: 500 15px/20px var(--font);
+  outline: none;
+}
+
+.search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.clear {
+  display: flex;
+  color: var(--text-muted);
+}
+
+.round {
+  position: relative;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 4px 16px rgba(29, 20, 76, 0.14);
+  color: var(--text);
+}
+
+.roundOn {
+  color: var(--primary);
+}
+
+.count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font: 700 11px/18px var(--font);
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  margin: 10px calc(-1 * var(--gutter)) 0;
+  padding: 0 var(--gutter) 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.chips::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: 0 2px 10px rgba(29, 20, 76, 0.12);
+  color: var(--text);
+  font: 600 13px/16px var(--font);
+  white-space: nowrap;
+}
+
+.chipOn {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+.dateChip {
+  color: var(--primary);
+}
+
+.chipCount {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.chipOn .chipCount {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.bottom {
+  position: absolute;
+  right: 0;
+  bottom: calc(12px + var(--draft-inset, 0px));
+  left: 0;
+  z-index: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 var(--gutter);
+  pointer-events: none;
+}
+
+.bottom > * {
+  pointer-events: auto;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tool {
+  display: inline-flex;
+  min-width: 0;
+  max-width: 70%;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: 0 2px 10px rgba(29, 20, 76, 0.12);
+  color: var(--text);
+  font: 600 13px/16px var(--font);
+}
+
+.tool svg {
+  flex: none;
+  color: var(--primary);
+}
+
+.tool span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 14px 14px 16px;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(29, 20, 76, 0.16);
+  color: var(--text-secondary);
+  font: 500 14px/18px var(--font);
+  text-align: left;
+}
+
+.summary b {
+  color: var(--text);
+}
+
+.summaryAction {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: var(--tint);
+  color: var(--primary);
+  font: 600 13px/16px var(--font);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.more {
+  color: var(--text-muted);
+  font: 400 13px/18px var(--font);
+}
+
+.toMap {
+  display: inline-flex;
+  align-self: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  padding: 10px 16px;
+  border-radius: 14px;
+  background: var(--tint);
+  color: var(--primary);
+  font: 600 14px/18px var(--font);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .chips {
+    cursor: grab;
+    user-select: none;
+  }
+}
+
+.subChips {
+  margin-top: 0;
+}
+
+.subChip {
+  padding: 6px 11px;
+  font-size: 12px;
+}

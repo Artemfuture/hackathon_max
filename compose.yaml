@@ -1,0 +1,53 @@
+services:
+  # Бот MAX + мини-приложение в одном контейнере.
+  # Локально: http://localhost:3000. Порт открыт только на этом компьютере (127.0.0.1), поэтому на
+  # сервере снаружи приложение доступно лишь через caddy ниже — по HTTPS.
+  app:
+    build:
+      context: .
+      args:
+        VITE_BOT_NAME: ${VITE_BOT_NAME:-}
+    # docker compose автоматически подставляет переменные из файла .env в корне проекта
+    # (скопируйте .env.example -> .env и укажите свой MAX_BOT_TOKEN).
+    environment:
+      - TRANSPORT=${TRANSPORT:-max}
+      - MAX_BOT_TOKEN=${MAX_BOT_TOKEN:-}
+      - MAX_API_BASE_URL=${MAX_API_BASE_URL:-}
+      - REMINDER_LEAD_MINUTES=${REMINDER_LEAD_MINUTES:-}
+      - REMINDER_CHECK_SECONDS=${REMINDER_CHECK_SECONDS:-}
+      - EVENT_UTC_OFFSET_MIN=${EVENT_UTC_OFFSET_MIN:-}
+      - KUDAGO=${KUDAGO:-}
+      - KUDAGO_LOCATION=${KUDAGO_LOCATION:-}
+      - DEMO_EVENTS=${DEMO_EVENTS:-}
+    volumes:
+      # Диалоги и напоминания переживают docker compose down / up (удаляются только по down -v).
+      - app_state:/app/state
+    ports:
+      - "127.0.0.1:${APP_PORT:-3000}:3000"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+  # Запуск на сервере с открытыми портами 80/443 и своим доменом: docker compose --profile prod up -d --build
+  # Caddy сам получает и продлевает сертификат HTTPS (Let's Encrypt) для домена из DOMAIN.
+  caddy:
+    image: caddy:2.11.4-alpine
+    profiles: ["prod"]
+    depends_on:
+      - app
+    environment:
+      - DOMAIN=${DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    restart: unless-stopped
+
+volumes:
+  app_state:
+  caddy_data:
+  caddy_config:

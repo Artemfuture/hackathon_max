@@ -1,0 +1,114 @@
+.card {
+  position: relative;
+  padding: 12px;
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 28px rgba(29, 20, 76, 0.2);
+}
+
+.cardClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface-muted);
+  color: var(--text-muted);
+}
+
+.cardOpen {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+  padding-right: 28px;
+  text-align: left;
+}
+
+.cardPhoto {
+  width: 96px;
+  height: 96px;
+  flex: none;
+  border-radius: 14px;
+  object-fit: cover;
+  background: var(--tint);
+}
+
+.cardBody {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cardKind {
+  font: 700 11px/14px var(--font);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.cardTitle {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--text);
+  font: 700 16px/20px var(--font);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.cardMeta {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font: 500 12px/16px var(--font);
+}
+
+.cardMeta b {
+  color: var(--text);
+}
+
+.cardActions {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 52px 1fr 1fr;
+  margin-top: 12px;
+}
+
+.routeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: var(--tint);
+  color: var(--primary);
+}
+
+.siblings {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  color: var(--text-muted);
+  font: 500 12px/16px var(--font);
+  white-space: nowrap;
+}
+
+.siblings::-webkit-scrollbar {
+  display: none;
+}
+
+.siblings button {
+  flex: none;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: var(--surface-muted);
+  color: var(--text);
+  font: 600 12px/15px var(--font);
+}

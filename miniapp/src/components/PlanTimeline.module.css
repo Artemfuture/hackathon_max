@@ -1,0 +1,270 @@
+.list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list::before {
+  position: absolute;
+  top: 14px;
+  bottom: 12px;
+  left: 58px;
+  width: 2px;
+  border-radius: 1px;
+  background: var(--tail);
+  content: '';
+  opacity: 0.55;
+}
+
+.group {
+  display: contents;
+}
+
+.item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 52px 14px minmax(0, 1fr);
+  gap: 0 0;
+  align-items: start;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  padding-top: 12px;
+  color: var(--text);
+  font: 600 13px/16px var(--font);
+  font-variant-numeric: tabular-nums;
+}
+
+.timeEnd {
+  margin-top: 2px;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.dot,
+.dotStart,
+.dotEnd {
+  position: relative;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  margin: 15px 0 0 1px;
+  border: 2px solid var(--surface);
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 0 2px rgba(71, 26, 255, 0.18);
+}
+
+.dotStart {
+  background: #00bfff;
+}
+
+.dotEnd {
+  margin-top: 13px;
+  background: var(--surface);
+  border-color: var(--primary);
+}
+
+.gap {
+  display: block;
+}
+
+.stop + .stop,
+.leg + .stop {
+  margin-top: 0;
+}
+
+.card {
+  position: relative;
+  min-width: 0;
+  margin: 0 0 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: 0 2px 10px rgba(13, 11, 22, 0.04);
+}
+
+.open {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  gap: 12px;
+  padding: 10px 36px 10px 10px;
+  text-align: left;
+}
+
+.thumb {
+  width: 76px;
+  height: 76px;
+  flex: none;
+  border-radius: 12px;
+  object-fit: cover;
+  background: var(--tint);
+}
+
+.body {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.kind {
+  color: var(--primary);
+  font: 600 11px/14px var(--font);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.title {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--text);
+  font: 600 15px/19px var(--font);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.meta {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+  color: var(--text-muted);
+  font: 400 12px/15px var(--font);
+}
+
+.meta span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.price {
+  color: var(--text-secondary);
+  font: 500 12px/15px var(--font);
+}
+
+.remove {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--text-muted);
+}
+
+.remove:active {
+  background: var(--surface-muted);
+}
+
+.legBody {
+  min-width: 0;
+  padding: 4px 0 6px 12px;
+}
+
+.fromLabel {
+  margin: 10px 0 2px;
+  color: var(--text-secondary);
+  font: 500 13px/16px var(--font);
+}
+
+.wait {
+  margin: -4px 0 4px 34px;
+  color: var(--text-muted);
+  font: 400 12px/15px var(--font);
+}
+
+.legBody > div {
+  padding: 6px 0;
+}
+
+.end {
+  margin-top: 4px;
+}
+
+.endLabel {
+  margin: 10px 0 0 12px;
+  color: var(--text);
+  font: 600 15px/19px var(--font);
+}
+
+.add {
+  display: flex;
+  width: 100%;
+  margin-top: 18px;
+  height: 58px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1.5px dashed var(--tint-border);
+  border-radius: 18px;
+  color: var(--primary);
+  font: 600 15px/18px var(--font);
+}
+
+.add:active {
+  background: var(--tint);
+}
+
+.addIcon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--tint);
+}
+
+.visit {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 10px 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font: 500 12px/15px var(--font);
+}
+
+.visitLabel {
+  margin-right: auto;
+}
+
+.visitButton {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: var(--tint);
+  color: var(--primary);
+  font: 600 18px/1 var(--font);
+}
+
+.visitButton:active:not(:disabled) {
+  background: var(--tint-pressed);
+}
+
+.visitButton:disabled {
+  background: var(--soft-disabled);
+  color: var(--soft-disabled-text);
+  cursor: default;
+}
+
+.visitValue {
+  min-width: 58px;
+  color: var(--text);
+  font: 600 13px/16px var(--font);
+  text-align: center;
+}

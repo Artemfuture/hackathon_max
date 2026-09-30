@@ -1,0 +1,92 @@
+.card {
+  position: relative;
+  width: min(88vw, 360px);
+  min-height: 236px;
+  flex: none;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #1b1535;
+  scroll-snap-align: start;
+}
+
+.photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(10, 8, 24, 0.82) 0%, rgba(10, 8, 24, 0.45) 60%, rgba(10, 8, 24, 0.2) 100%),
+    linear-gradient(0deg, rgba(10, 8, 24, 0.7) 0%, rgba(10, 8, 24, 0) 55%);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  min-height: 236px;
+  flex-direction: column;
+  padding: 16px 14px 14px 16px;
+  color: #fff;
+}
+
+.badge {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(8px);
+  font: 600 12px/14px var(--font);
+}
+
+.title {
+  max-width: 260px;
+  margin-top: 14px;
+  font: 700 25px/29px var(--font);
+}
+
+.path {
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.82);
+  font: 500 14px/18px var(--font);
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+.fact {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font: 600 12px/16px var(--font);
+  white-space: nowrap;
+}
+
+.open {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: auto;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font: 600 13px/16px var(--font);
+  white-space: nowrap;
+}
+
+.open:active {
+  background: var(--primary-pressed);
+}

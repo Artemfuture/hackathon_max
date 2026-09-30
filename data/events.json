@@ -1,0 +1,1383 @@
+{
+  "_comment": "Тестовый (синтетический) набор данных о событиях и местах Казани для демонстрации MVP. Эти события не взяты из внешних афиш: ссылки ведут на несуществующие адреса *.example, программа, цены и часы работы вымышлены или примерны; интеграций с PRO.Культура.РФ и Единым календарным планом Минспорта пока нет. Поле dayOffset задаёт смещение от текущей даты в днях, а daily: true — событие, которое проходит каждый день, — так демо-данные всегда выглядят актуальными. Координаты lat/lon приблизительные, нужны для расчёта дороги. kind — короткая подпись для карточек, moods — под какое настроение подходит (справочник moods), durationMin — длительность сеанса или комфортное время визита, photo — ключ картинки в мини-приложении, outdoor — на улице (при дожде такие точки ниже в подборке). format: place — место с часами работы (hours), а не событие: в списках бота его нет, а планировщик вечера ставит туда визит гибко. Блок evening есть у событий из редакторских планов вечера (plans) — они сохранены для старых ссылок-приглашений. Блок source — откуда данные и на какую дату они актуальны. Реальные данные подмешиваются на сервере: кафе и бары из OpenStreetMap (data/cafes.json, scripts/import-cafes.js) и афиша KudaGo (src/sources/kudago.js); у них поле source и расписание schedule. landmarks — известные места города: от них строится маршрут, если геолокацию отправить нельзя.",
+  "city": "Казань",
+  "source": {
+    "name": "тестовая афиша для демонстрации",
+    "isTest": true,
+    "updatedAt": "2026-09-29"
+  },
+  "landmarks": [
+    {
+      "id": "tukay",
+      "label": "Площадь Тукая",
+      "emoji": "🚇",
+      "lat": 55.7875,
+      "lon": 49.1223
+    },
+    {
+      "id": "kremlin",
+      "label": "Кремль",
+      "emoji": "🏰",
+      "lat": 55.7988,
+      "lon": 49.1052
+    },
+    {
+      "id": "kfu",
+      "label": "КФУ, главное здание",
+      "emoji": "🎓",
+      "lat": 55.7904,
+      "lon": 49.121
+    },
+    {
+      "id": "gorky",
+      "label": "Парк Горького",
+      "emoji": "🌳",
+      "lat": 55.8081,
+      "lon": 49.1281
+    },
+    {
+      "id": "station",
+      "label": "Ж/д вокзал",
+      "emoji": "🚉",
+      "lat": 55.7887,
+      "lon": 49.0994
+    },
+    {
+      "id": "kaban",
+      "label": "Озеро Кабан",
+      "emoji": "🌊",
+      "lat": 55.7815,
+      "lon": 49.1245
+    }
+  ],
+  "categories": [
+    {
+      "id": "theatre",
+      "label": "Театр",
+      "emoji": "🎭"
+    },
+    {
+      "id": "museum",
+      "label": "Музеи и выставки",
+      "emoji": "🖼"
+    },
+    {
+      "id": "concert",
+      "label": "Концерты",
+      "emoji": "🎶"
+    },
+    {
+      "id": "cinema",
+      "label": "Кино",
+      "emoji": "🎬"
+    },
+    {
+      "id": "masterclass",
+      "label": "Мастер-классы",
+      "emoji": "🎨"
+    },
+    {
+      "id": "sport",
+      "label": "Спорт",
+      "emoji": "🏃"
+    },
+    {
+      "id": "walk",
+      "label": "Прогулки",
+      "emoji": "🚶"
+    },
+    {
+      "id": "talk",
+      "label": "Лекции и встречи",
+      "emoji": "🗣"
+    },
+    {
+      "id": "show",
+      "label": "Шоу и стендап",
+      "emoji": "🎤"
+    },
+    {
+      "id": "food",
+      "label": "Кафе и бары",
+      "emoji": "☕",
+      "places": true
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "Вечерняя экскурсия по Казанскому Кремлю",
+      "category": "museum",
+      "dayOffset": 0,
+      "time": "19:00",
+      "place": "Казанский Кремль",
+      "district": "Вахитовский район",
+      "lat": 55.7988,
+      "lon": 49.1052,
+      "walkMin": 15,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Пешая экскурсия с гидом по территории Кремля и мечети Кул-Шариф. Бесплатно по предварительной регистрации.",
+      "link": "https://kazan-kremlin.example/events/evening-tour",
+      "kind": "Экскурсия",
+      "moods": [
+        "learn",
+        "rest"
+      ],
+      "durationMin": 90,
+      "photo": "city",
+      "outdoor": true,
+      "address": "ул. Шейнкмана, Спасская башня"
+    },
+    {
+      "id": "evt-002",
+      "title": "Спектакль «Ревизор»",
+      "category": "theatre",
+      "dayOffset": 0,
+      "time": "19:30",
+      "place": "Театр им. Качалова",
+      "district": "Вахитовский район",
+      "lat": 55.7895,
+      "lon": 49.1225,
+      "walkMin": 20,
+      "price": 600,
+      "pushkin": true,
+      "free": false,
+      "description": "Классическая постановка гоголевской комедии. Билеты доступны по «Пушкинской карте».",
+      "link": "https://kachalov-theatre.example/afisha/revizor",
+      "kind": "Спектакль",
+      "moods": [
+        "wow",
+        "learn"
+      ],
+      "durationMin": 150,
+      "photo": "theatre",
+      "studentPrice": 400,
+      "address": "ул. Баумана, 48"
+    },
+    {
+      "id": "evt-003",
+      "title": "Открытая тренировка по стритболу",
+      "category": "sport",
+      "dayOffset": 0,
+      "time": "18:00",
+      "place": "Площадка ГТО в парке Урицкого",
+      "district": "Ново-Савиновский район",
+      "lat": 55.8262,
+      "lon": 49.1391,
+      "walkMin": 10,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Бесплатная открытая тренировка, инвентарь предоставляется на месте, регистрация не требуется.",
+      "link": "https://sportkazan.example/events/streetball",
+      "kind": "Тренировка",
+      "moods": [
+        "move",
+        "meet"
+      ],
+      "durationMin": 90,
+      "photo": "sport",
+      "outdoor": true,
+      "address": "ул. Урицкого, парк"
+    },
+    {
+      "id": "evt-004",
+      "title": "Концерт молодых музыкантов «Ночь в филармонии»",
+      "category": "concert",
+      "dayOffset": 1,
+      "time": "20:00",
+      "place": "Татарская государственная филармония",
+      "district": "Вахитовский район",
+      "lat": 55.7896,
+      "lon": 49.1195,
+      "walkMin": 25,
+      "price": 450,
+      "pushkin": true,
+      "free": false,
+      "description": "Камерный концерт лауреатов молодёжных конкурсов. Часть мест доступна по «Пушкинской карте».",
+      "link": "https://filarmonia-rt.example/afisha/night-concert",
+      "kind": "Концерт",
+      "moods": [
+        "wow",
+        "rest"
+      ],
+      "durationMin": 100,
+      "photo": "concert",
+      "studentPrice": 300,
+      "address": "ул. Марджани, 1"
+    },
+    {
+      "id": "evt-005",
+      "title": "Мастер-класс по керамике",
+      "category": "masterclass",
+      "dayOffset": 1,
+      "time": "17:00",
+      "place": "Творческая мастерская «Арт-квартал»",
+      "district": "Приволжский район",
+      "lat": 55.7513,
+      "lon": 49.1737,
+      "walkMin": 12,
+      "price": 900,
+      "pushkin": false,
+      "free": false,
+      "description": "Лепка и роспись керамических изделий, все материалы включены в стоимость.",
+      "link": "https://art-kvartal.example/masterclass/ceramics",
+      "kind": "Мастер-класс",
+      "moods": [
+        "learn",
+        "meet",
+        "rest"
+      ],
+      "durationMin": 120,
+      "photo": "craft",
+      "address": "ул. Ершова, 23"
+    },
+    {
+      "id": "evt-006",
+      "title": "Показ короткометражного авторского кино",
+      "category": "cinema",
+      "dayOffset": 1,
+      "time": "21:00",
+      "place": "Кинотеатр «Мир»",
+      "district": "Вахитовский район",
+      "lat": 55.7877,
+      "lon": 49.1236,
+      "walkMin": 18,
+      "price": 350,
+      "pushkin": true,
+      "free": false,
+      "description": "Подборка короткометражных фильмов молодых режиссёров с обсуждением после показа.",
+      "link": "https://kino-mir.example/afisha/shorts-night",
+      "kind": "Кино",
+      "moods": [
+        "rest",
+        "learn"
+      ],
+      "durationMin": 110,
+      "photo": "cinema",
+      "address": "ул. Баумана, 70"
+    },
+    {
+      "id": "evt-007",
+      "title": "Выставка современного искусства «Точка сборки»",
+      "category": "museum",
+      "dayOffset": 2,
+      "time": "12:00",
+      "place": "Центр современной культуры «Смена»",
+      "district": "Вахитовский район",
+      "lat": 55.7963,
+      "lon": 49.1093,
+      "walkMin": 22,
+      "price": 200,
+      "pushkin": true,
+      "free": false,
+      "description": "Экспозиция работ современных художников Поволжья. Действует «Пушкинская карта».",
+      "link": "https://smenaklb.example/afisha/tochka-sborki",
+      "kind": "Выставка",
+      "moods": [
+        "learn"
+      ],
+      "durationMin": 90,
+      "photo": "exhibition",
+      "address": "ул. Бурхана Шахиди, 7"
+    },
+    {
+      "id": "evt-008",
+      "title": "Йога в парке на закате",
+      "category": "sport",
+      "dayOffset": 2,
+      "time": "19:00",
+      "place": "Парк им. Горького",
+      "district": "Вахитовский район",
+      "lat": 55.8081,
+      "lon": 49.1281,
+      "walkMin": 8,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Бесплатное занятие йогой на открытом воздухе для всех уровней подготовки, коврики свои.",
+      "link": "https://gorkyparkkzn.example/events/sunset-yoga",
+      "kind": "Йога",
+      "moods": [
+        "move",
+        "rest"
+      ],
+      "durationMin": 60,
+      "photo": "park",
+      "outdoor": true,
+      "address": "ул. Николаева, 1"
+    },
+    {
+      "id": "evt-009",
+      "title": "Спектакль «Алиса в стране чудес» (для молодёжи)",
+      "category": "theatre",
+      "dayOffset": 3,
+      "time": "18:00",
+      "place": "Казанский ТЮЗ",
+      "district": "Вахитовский район",
+      "lat": 55.7905,
+      "lon": 49.1206,
+      "walkMin": 16,
+      "price": 400,
+      "pushkin": true,
+      "free": false,
+      "description": "Современная постановка классической истории. Билеты доступны по «Пушкинской карте».",
+      "link": "https://tuz-kazan.example/afisha/alice",
+      "kind": "Спектакль",
+      "moods": [
+        "wow"
+      ],
+      "durationMin": 140,
+      "photo": "theatre",
+      "studentPrice": 250,
+      "address": "ул. Островского, 10"
+    },
+    {
+      "id": "evt-010",
+      "title": "Джазовый концерт под открытым небом",
+      "category": "concert",
+      "dayOffset": 3,
+      "time": "20:30",
+      "place": "Летняя эстрада парка «Черное озеро»",
+      "district": "Вахитовский район",
+      "lat": 55.7899,
+      "lon": 49.1145,
+      "walkMin": 14,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Бесплатный городской концерт джазового оркестра в рамках летней программы парка.",
+      "link": "https://chernoezero.example/events/jazz-open-air",
+      "kind": "Концерт",
+      "moods": [
+        "wow",
+        "rest"
+      ],
+      "durationMin": 90,
+      "photo": "concert",
+      "outdoor": true,
+      "address": "ул. Дзержинского, парк"
+    },
+    {
+      "id": "evt-011",
+      "title": "Мастер-класс по каллиграфии",
+      "category": "masterclass",
+      "dayOffset": 4,
+      "time": "16:00",
+      "place": "Национальная библиотека РТ",
+      "district": "Вахитовский район",
+      "lat": 55.7935,
+      "lon": 49.1219,
+      "walkMin": 20,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Бесплатное занятие по основам каллиграфии, места ограничены, нужна регистрация.",
+      "link": "https://kitaphane.example/events/calligraphy",
+      "kind": "Мастер-класс",
+      "moods": [
+        "learn",
+        "rest"
+      ],
+      "durationMin": 90,
+      "photo": "craft",
+      "address": "ул. Кремлёвская, 33"
+    },
+    {
+      "id": "evt-012",
+      "title": "Показ фильма-номинанта фестиваля «Алтын Минбар»",
+      "category": "cinema",
+      "dayOffset": 5,
+      "time": "19:00",
+      "place": "Кинотеатр «Родина»",
+      "district": "Вахитовский район",
+      "lat": 55.7871,
+      "lon": 49.1246,
+      "walkMin": 19,
+      "price": 300,
+      "pushkin": true,
+      "free": false,
+      "description": "Специальный показ фильма из программы фестиваля, доступна оплата «Пушкинской картой».",
+      "link": "https://kino-rodina.example/afisha/altyn-minbar",
+      "kind": "Кино",
+      "moods": [
+        "learn",
+        "rest"
+      ],
+      "durationMin": 120,
+      "photo": "cinema",
+      "address": "ул. Баумана, 70"
+    },
+    {
+      "id": "evt-013",
+      "title": "Городской забег «Утро в парке»",
+      "category": "sport",
+      "dayOffset": 6,
+      "time": "09:00",
+      "place": "Набережная озера Кабан",
+      "district": "Вахитовский район",
+      "lat": 55.7815,
+      "lon": 49.1245,
+      "walkMin": 10,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Бесплатный любительский забег на 5 км, сбор участников за 30 минут до старта.",
+      "link": "https://runkazan.example/events/morning-run",
+      "kind": "Забег",
+      "moods": [
+        "move",
+        "meet"
+      ],
+      "durationMin": 60,
+      "photo": "sport",
+      "outdoor": true,
+      "address": "наб. озера Нижний Кабан"
+    },
+    {
+      "id": "evt-014",
+      "title": "Органный концерт",
+      "category": "concert",
+      "dayOffset": 6,
+      "time": "18:00",
+      "place": "Большой концертный зал им. Сайдашева",
+      "district": "Вахитовский район",
+      "lat": 55.7895,
+      "lon": 49.1195,
+      "walkMin": 23,
+      "price": 500,
+      "pushkin": true,
+      "free": false,
+      "description": "Вечер органной музыки, часть билетов доступна по «Пушкинской карте».",
+      "link": "https://bkz-kazan.example/afisha/organ-night",
+      "kind": "Концерт",
+      "moods": [
+        "rest",
+        "wow"
+      ],
+      "durationMin": 90,
+      "photo": "concert",
+      "address": "ул. Некрасова, 38"
+    },
+    {
+      "id": "evt-101",
+      "title": "Новая реальность",
+      "category": "museum",
+      "daily": true,
+      "dayOffset": 0,
+      "time": "19:00",
+      "place": "Центр современной культуры «Смена»",
+      "district": "Вахитовский район",
+      "lat": 55.7963,
+      "lon": 49.1093,
+      "walkMin": 22,
+      "price": 590,
+      "pushkin": true,
+      "free": false,
+      "description": "Постоянная экспозиция цифрового и медиаискусства, открыта каждый вечер. По «Пушкинской карте» — бесплатно, для студентов — 390 ₽.",
+      "link": "https://smenaklb.example/afisha/new-reality",
+      "evening": {
+        "kind": "Выставка",
+        "photo": "exhibition",
+        "focus": "50% 54%",
+        "crop": {
+          "w": 153,
+          "h": 203,
+          "left": -28.5,
+          "top": -51.7
+        },
+        "durationMin": 90,
+        "studentPrice": 390
+      },
+      "moods": [
+        "learn",
+        "wow"
+      ],
+      "address": "ул. Бурхана Шахиди, 7"
+    },
+    {
+      "id": "evt-102",
+      "title": "Озеро Кабан",
+      "category": "walk",
+      "daily": true,
+      "dayOffset": 0,
+      "time": "20:30",
+      "place": "Набережная озера Кабан",
+      "district": "Вахитовский район",
+      "lat": 55.7815,
+      "lon": 49.1245,
+      "walkMin": 10,
+      "price": 0,
+      "pushkin": false,
+      "free": true,
+      "description": "Вечерняя прогулка по набережной озера Кабан: около 40 минут неспешным шагом, подсветка включается в сумерках.",
+      "link": "https://kazan-walks.example/routes/kaban",
+      "evening": {
+        "kind": "Прогулка",
+        "photo": "walk",
+        "focus": "50% 50%",
+        "crop": {
+          "w": 159,
+          "h": 105,
+          "left": -35.1,
+          "top": 0
+        },
+        "durationMin": 40
+      },
+      "moods": [
+        "rest",
+        "move"
+      ],
+      "outdoor": true,
+      "address": "наб. озера Нижний Кабан",
+      "hours": {
+        "open": "18:00",
+        "close": "23:30",
+        "minVisitMin": 20
+      }
+    },
+    {
+      "id": "evt-103",
+      "title": "Сезон",
+      "category": "concert",
+      "daily": true,
+      "dayOffset": 0,
+      "time": "21:30",
+      "place": "Концертный клуб «Живой звук»",
+      "district": "Вахитовский район",
+      "lat": 55.791,
+      "lon": 49.127,
+      "walkMin": 17,
+      "price": 850,
+      "pushkin": false,
+      "free": false,
+      "description": "Вечерний концерт живой музыки в камерном зале клуба, около 70 минут без антракта.",
+      "link": "https://zhivoy-zvuk.example/afisha/season",
+      "evening": {
+        "kind": "Концерт",
+        "photo": "concert",
+        "focus": "50% 50%",
+        "crop": {
+          "w": 195,
+          "h": 130,
+          "left": -48.3,
+          "top": -15
+        },
+        "durationMin": 70
+      },
+      "moods": [
+        "wow",
+        "meet"
+      ],
+      "address": "ул. Профсоюзная, 16"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-151",
+      "title": "Экскурсия «Тайны улицы Баумана»",
+      "category": "walk",
+      "kind": "Экскурсия",
+      "time": "12:00",
+      "durationMin": 90,
+      "place": "Колокольня Богоявленского собора",
+      "address": "ул. Баумана, 78",
+      "lat": 55.7889,
+      "lon": 49.1227,
+      "walkMin": 12,
+      "price": 500,
+      "studentPrice": 350,
+      "moods": [
+        "learn",
+        "meet"
+      ],
+      "photo": "walk",
+      "outdoor": true,
+      "description": "Пешая экскурсия по главной пешеходной улице: купеческие дома, дворики и истории, которых нет в путеводителях. Сбор у колокольни.",
+      "link": "https://kazan-walks.example/tours/bauman"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-152",
+      "title": "Мастер-класс «Эчпочмак своими руками»",
+      "category": "masterclass",
+      "kind": "Мастер-класс",
+      "time": "13:00",
+      "durationMin": 90,
+      "place": "Кулинарная студия «Казан-кухня»",
+      "address": "ул. Пушкина, 17",
+      "lat": 55.7929,
+      "lon": 49.1262,
+      "walkMin": 15,
+      "price": 1200,
+      "moods": [
+        "meet",
+        "learn"
+      ],
+      "photo": "craft",
+      "description": "Готовим татарскую выпечку вместе с шефом и знакомимся за общим столом. Всё, что испечёте, заберёте с собой.",
+      "link": "https://kazan-kitchen.example/echpochmak"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-153",
+      "title": "Лекция «Как смотреть современное искусство»",
+      "category": "talk",
+      "kind": "Лекция",
+      "time": "16:00",
+      "durationMin": 60,
+      "place": "Центр современной культуры «Смена»",
+      "address": "ул. Бурхана Шахиди, 7",
+      "lat": 55.7963,
+      "lon": 49.1093,
+      "walkMin": 22,
+      "price": 0,
+      "moods": [
+        "learn"
+      ],
+      "photo": "talk",
+      "description": "Часовая лекция куратора с разбором трёх работ из текущей экспозиции. Вход свободный, лучше прийти за 10 минут.",
+      "link": "https://smenaklb.example/talks/how-to-look"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-154",
+      "title": "Разговорный клуб английского",
+      "category": "talk",
+      "kind": "Встреча",
+      "time": "18:00",
+      "durationMin": 90,
+      "place": "Национальная библиотека РТ",
+      "address": "ул. Пушкина, 86",
+      "lat": 55.7935,
+      "lon": 49.1219,
+      "walkMin": 20,
+      "price": 0,
+      "moods": [
+        "meet",
+        "learn"
+      ],
+      "photo": "talk",
+      "description": "Свободное общение на английском за столиками по 5–6 человек, ведущий помогает начать разговор. Уровень — от B1.",
+      "link": "https://kitaphane.example/events/english-club"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-155",
+      "title": "Стендап «Открытый микрофон»",
+      "category": "show",
+      "kind": "Стендап",
+      "time": "20:00",
+      "durationMin": 100,
+      "place": "Клуб «Подвал на Баумана»",
+      "address": "ул. Баумана, 44",
+      "lat": 55.7881,
+      "lon": 49.1231,
+      "walkMin": 12,
+      "price": 600,
+      "studentPrice": 450,
+      "moods": [
+        "wow",
+        "meet"
+      ],
+      "photo": "show",
+      "description": "Новые и опытные комики пробуют свежий материал. 18+, столики у сцены занимают первыми.",
+      "link": "https://podval-kazan.example/open-mic"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": true,
+      "district": "Вахитовский район",
+      "id": "evt-156",
+      "title": "Концерт татарского фолка «Моң»",
+      "category": "concert",
+      "kind": "Концерт",
+      "time": "19:30",
+      "durationMin": 80,
+      "place": "Татарский театр им. Г. Камала, малый зал",
+      "address": "ул. Татарстан, 1",
+      "lat": 55.7784,
+      "lon": 49.117,
+      "walkMin": 25,
+      "price": 700,
+      "moods": [
+        "wow",
+        "learn"
+      ],
+      "photo": "concert",
+      "description": "Народные мелодии в современной аранжировке: курай, скрипка и электроника. Действует «Пушкинская карта».",
+      "link": "https://kamalteatr.example/afisha/mon"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": true,
+      "district": "Вахитовский район",
+      "id": "evt-157",
+      "title": "Кинопоказ «Казань в кино»",
+      "category": "cinema",
+      "kind": "Кино",
+      "time": "19:30",
+      "durationMin": 100,
+      "place": "Кинотеатр «Мир»",
+      "address": "ул. Баумана, 70",
+      "lat": 55.7877,
+      "lon": 49.1236,
+      "walkMin": 18,
+      "price": 350,
+      "studentPrice": 250,
+      "moods": [
+        "rest",
+        "learn"
+      ],
+      "photo": "cinema",
+      "description": "Сборник короткометражек, снятых в Казани, и разговор с режиссёрами после показа.",
+      "link": "https://kino-mir.example/afisha/kazan-v-kino"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-158",
+      "title": "Пробежка с клубом «Казань бегает»",
+      "category": "sport",
+      "kind": "Пробежка",
+      "time": "19:00",
+      "durationMin": 60,
+      "place": "Кремлёвская набережная, у фонтана",
+      "address": "Кремлёвская наб.",
+      "lat": 55.8028,
+      "lon": 49.1041,
+      "walkMin": 14,
+      "price": 0,
+      "moods": [
+        "move",
+        "meet"
+      ],
+      "photo": "sport",
+      "outdoor": true,
+      "description": "Лёгкие 5 км в разговорном темпе вдоль Казанки. Новичков ждут, вещи можно оставить у организаторов.",
+      "link": "https://runkazan.example/club-run"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": true,
+      "district": "Вахитовский район",
+      "id": "evt-159",
+      "title": "Иммерсивный спектакль «Город»",
+      "category": "theatre",
+      "kind": "Спектакль",
+      "time": "19:00",
+      "durationMin": 110,
+      "place": "Пространство «Угол»",
+      "address": "ул. Островского, 38",
+      "lat": 55.7862,
+      "lon": 49.1181,
+      "walkMin": 20,
+      "price": 900,
+      "studentPrice": 600,
+      "moods": [
+        "wow"
+      ],
+      "photo": "theatre",
+      "description": "Зрители ходят за актёрами по комнатам старого дома — история складывается из того, что вы успели увидеть.",
+      "link": "https://ugol-kazan.example/gorod"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-160",
+      "title": "Городской квиз «Казанский вопрос»",
+      "category": "talk",
+      "kind": "Квиз",
+      "time": "20:00",
+      "durationMin": 120,
+      "place": "Антикафе «Время»",
+      "address": "ул. Профсоюзная, 23",
+      "lat": 55.7907,
+      "lon": 49.1178,
+      "walkMin": 15,
+      "price": 500,
+      "moods": [
+        "meet",
+        "wow"
+      ],
+      "photo": "games",
+      "description": "Командная игра на эрудицию: приходите компанией или соберём команду на месте. Чай и печенье включены.",
+      "link": "https://vremya-anticafe.example/quiz"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-161",
+      "title": "Урок сальсы для новичков",
+      "category": "masterclass",
+      "kind": "Танцы",
+      "time": "19:30",
+      "durationMin": 60,
+      "place": "Танцевальная студия «Ритм»",
+      "address": "ул. Кави Наджми, 8",
+      "lat": 55.7951,
+      "lon": 49.1251,
+      "walkMin": 18,
+      "price": 500,
+      "studentPrice": 350,
+      "moods": [
+        "move",
+        "meet"
+      ],
+      "photo": "craft",
+      "description": "Базовые шаги за час, пара не нужна — партнёры меняются по кругу. Удобная обувь обязательна.",
+      "link": "https://ritm-dance.example/salsa-intro"
+    },
+    {
+      "dayOffset": 0,
+      "daily": true,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-162",
+      "title": "Джем-сейшн «Кабан-джаз»",
+      "category": "concert",
+      "kind": "Концерт",
+      "time": "21:00",
+      "durationMin": 90,
+      "place": "Бар «Нота»",
+      "address": "ул. Каюма Насыри, 5",
+      "lat": 55.7792,
+      "lon": 49.1163,
+      "walkMin": 20,
+      "price": 400,
+      "moods": [
+        "wow",
+        "rest",
+        "meet"
+      ],
+      "photo": "concert",
+      "description": "Местные музыканты играют стандарты, после первого сета сцена открыта для всех, кто принёс инструмент.",
+      "link": "https://nota-kazan.example/jam"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-201",
+      "title": "Казанский кремль",
+      "category": "walk",
+      "kind": "Прогулка",
+      "hours": {
+        "open": "08:00",
+        "close": "22:00",
+        "minVisitMin": 30
+      },
+      "durationMin": 60,
+      "place": "Казанский кремль",
+      "address": "ул. Шейнкмана, Спасская башня",
+      "lat": 55.7997,
+      "lon": 49.1064,
+      "walkMin": 15,
+      "price": 0,
+      "moods": [
+        "learn",
+        "rest"
+      ],
+      "photo": "city",
+      "outdoor": true,
+      "description": "Прогулка по территории кремля: мечеть Кул-Шариф, Благовещенский собор, башня Сююмбике и вид на Казанку. Вход на территорию свободный.",
+      "link": "https://kazan-kremlin.example/visit"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-202",
+      "title": "Кремлёвская набережная",
+      "category": "walk",
+      "kind": "Прогулка",
+      "hours": {
+        "open": "00:00",
+        "close": "24:00",
+        "minVisitMin": 20
+      },
+      "durationMin": 45,
+      "place": "Кремлёвская набережная",
+      "address": "Кремлёвская наб.",
+      "lat": 55.8031,
+      "lon": 49.1047,
+      "walkMin": 14,
+      "price": 0,
+      "moods": [
+        "rest",
+        "move"
+      ],
+      "photo": "walk",
+      "outdoor": true,
+      "description": "Широкая набережная вдоль Казанки с видом на кремль и центр семьи «Казан». Вечером — подсветка и уличные музыканты.",
+      "link": "https://kazan-walks.example/routes/kremlin-embankment"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-203",
+      "title": "Улица Баумана",
+      "category": "walk",
+      "kind": "Прогулка",
+      "hours": {
+        "open": "00:00",
+        "close": "24:00",
+        "minVisitMin": 20
+      },
+      "durationMin": 40,
+      "place": "Улица Баумана",
+      "address": "ул. Баумана",
+      "lat": 55.7898,
+      "lon": 49.1215,
+      "walkMin": 10,
+      "price": 0,
+      "moods": [
+        "rest",
+        "meet"
+      ],
+      "photo": "walk",
+      "outdoor": true,
+      "description": "Главная пешеходная улица: кафе, уличные музыканты, колокольня и памятник коту Алабрысу.",
+      "link": "https://kazan-walks.example/routes/bauman"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": true,
+      "district": "Вахитовский район",
+      "id": "evt-204",
+      "title": "Национальный музей Республики Татарстан",
+      "category": "museum",
+      "kind": "Музей",
+      "hours": {
+        "open": "10:00",
+        "close": "18:00",
+        "minVisitMin": 40
+      },
+      "durationMin": 75,
+      "place": "Национальный музей РТ",
+      "address": "ул. Кремлёвская, 2",
+      "lat": 55.7955,
+      "lon": 49.1085,
+      "walkMin": 15,
+      "price": 300,
+      "studentPrice": 150,
+      "moods": [
+        "learn"
+      ],
+      "photo": "museum",
+      "description": "История края от Волжской Булгарии до наших дней: археология, костюмы, золото и рукописи.",
+      "link": "https://tatmuseum.example"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": true,
+      "district": "Вахитовский район",
+      "id": "evt-205",
+      "title": "Музей изобразительных искусств",
+      "category": "museum",
+      "kind": "Музей",
+      "hours": {
+        "open": "10:00",
+        "close": "19:00",
+        "minVisitMin": 40
+      },
+      "durationMin": 70,
+      "place": "ГМИИ РТ",
+      "address": "ул. Карла Маркса, 64",
+      "lat": 55.7936,
+      "lon": 49.1339,
+      "walkMin": 25,
+      "price": 400,
+      "studentPrice": 200,
+      "moods": [
+        "learn",
+        "rest"
+      ],
+      "photo": "exhibition",
+      "description": "Русская живопись XVIII–XX веков в особняке Ушковой: Шишкин, Фешин, Айвазовский и авангард.",
+      "link": "https://izo-museum.example"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-206",
+      "title": "Музей социалистического быта",
+      "category": "museum",
+      "kind": "Музей",
+      "hours": {
+        "open": "10:00",
+        "close": "20:00",
+        "minVisitMin": 30
+      },
+      "durationMin": 50,
+      "place": "Музей социалистического быта",
+      "address": "ул. Университетская, 6",
+      "lat": 55.7919,
+      "lon": 49.1188,
+      "walkMin": 12,
+      "price": 350,
+      "studentPrice": 250,
+      "moods": [
+        "learn",
+        "wow"
+      ],
+      "photo": "museum",
+      "description": "Квартира, школа и магазин эпохи СССР — экспонаты можно трогать, а в конце выпить газировку из автомата.",
+      "link": "https://sovbyt-museum.example"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-207",
+      "title": "Парк Горького",
+      "category": "walk",
+      "kind": "Парк",
+      "hours": {
+        "open": "06:00",
+        "close": "23:00",
+        "minVisitMin": 20
+      },
+      "durationMin": 50,
+      "place": "Парк им. Горького",
+      "address": "ул. Николаева, 1",
+      "lat": 55.8081,
+      "lon": 49.1281,
+      "walkMin": 8,
+      "price": 0,
+      "moods": [
+        "move",
+        "rest"
+      ],
+      "photo": "park",
+      "outdoor": true,
+      "description": "Большой зелёный парк с прудом, аллеями и спортивными площадками — хорошее место, чтобы начать или закончить вечер.",
+      "link": "https://gorkyparkkzn.example"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-208",
+      "title": "Старо-Татарская слобода",
+      "category": "walk",
+      "kind": "Прогулка",
+      "hours": {
+        "open": "00:00",
+        "close": "24:00",
+        "minVisitMin": 25
+      },
+      "durationMin": 50,
+      "place": "Старо-Татарская слобода",
+      "address": "ул. Каюма Насыри",
+      "lat": 55.7782,
+      "lon": 49.1152,
+      "walkMin": 20,
+      "price": 0,
+      "moods": [
+        "learn",
+        "rest"
+      ],
+      "photo": "city",
+      "outdoor": true,
+      "description": "Деревянные дома XIX века, мечети и тихие улочки у озера Кабан — самая атмосферная часть старого города.",
+      "link": "https://kazan-walks.example/routes/sloboda"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-209",
+      "title": "Смотровая площадка центра «Казан»",
+      "category": "walk",
+      "kind": "Смотровая",
+      "hours": {
+        "open": "10:00",
+        "close": "22:00",
+        "minVisitMin": 20
+      },
+      "durationMin": 30,
+      "place": "Центр семьи «Казан»",
+      "address": "ул. Сибгата Хакима, 4",
+      "lat": 55.8129,
+      "lon": 49.1086,
+      "walkMin": 25,
+      "price": 250,
+      "moods": [
+        "wow"
+      ],
+      "photo": "city",
+      "description": "Площадка в «чаше» на высоте 37 метров: весь кремль и излучина Казанки как на ладони. Особенно красиво на закате.",
+      "link": "https://kazan-center.example/observation"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": true,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-210",
+      "title": "Парк Тысячелетия",
+      "category": "walk",
+      "kind": "Парк",
+      "hours": {
+        "open": "00:00",
+        "close": "24:00",
+        "minVisitMin": 20
+      },
+      "durationMin": 40,
+      "place": "Парк Тысячелетия",
+      "address": "ул. Спартаковская",
+      "lat": 55.7852,
+      "lon": 49.1262,
+      "walkMin": 12,
+      "price": 0,
+      "moods": [
+        "rest",
+        "move"
+      ],
+      "photo": "park",
+      "outdoor": true,
+      "description": "Парк у озера Нижний Кабан с амфитеатром, фонтанами и котлом-символом Казани.",
+      "link": "https://kazan-walks.example/routes/millennium"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-211",
+      "title": "Антикафе «Время»: настольные игры",
+      "category": "talk",
+      "kind": "Настолки",
+      "hours": {
+        "open": "12:00",
+        "close": "23:00",
+        "minVisitMin": 45
+      },
+      "durationMin": 90,
+      "place": "Антикафе «Время»",
+      "address": "ул. Профсоюзная, 23",
+      "lat": 55.7907,
+      "lon": 49.1178,
+      "walkMin": 15,
+      "price": 300,
+      "moods": [
+        "meet",
+        "rest"
+      ],
+      "photo": "games",
+      "description": "Платите за время, а не за еду: сотни настольных игр, ведущий объяснит правила и подсадит к другой компании.",
+      "link": "https://vremya-anticafe.example"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-212",
+      "title": "Скалодром «Вершина»",
+      "category": "sport",
+      "kind": "Скалодром",
+      "hours": {
+        "open": "10:00",
+        "close": "22:00",
+        "minVisitMin": 60
+      },
+      "durationMin": 90,
+      "place": "Скалодром «Вершина»",
+      "address": "ул. Толстого, 14",
+      "lat": 55.7959,
+      "lon": 49.1372,
+      "walkMin": 25,
+      "price": 700,
+      "studentPrice": 500,
+      "moods": [
+        "move"
+      ],
+      "photo": "sport",
+      "description": "Болдеринг для новичков и опытных: инструктаж 10 минут, скальники в прокате включены в цену.",
+      "link": "https://vershina-climb.example"
+    },
+    {
+      "format": "place",
+      "daily": true,
+      "dayOffset": 0,
+      "free": false,
+      "pushkin": false,
+      "district": "Вахитовский район",
+      "id": "evt-213",
+      "title": "Велопрогулка по набережной Казанки",
+      "category": "sport",
+      "kind": "Велопрогулка",
+      "hours": {
+        "open": "09:00",
+        "close": "21:00",
+        "minVisitMin": 40
+      },
+      "durationMin": 60,
+      "place": "Прокат у Дворца земледельцев",
+      "address": "ул. Федосеевская, 36",
+      "lat": 55.8003,
+      "lon": 49.1024,
+      "walkMin": 15,
+      "price": 250,
+      "moods": [
+        "move",
+        "rest"
+      ],
+      "photo": "park",
+      "outdoor": true,
+      "description": "Час на велосипеде вдоль воды: от Дворца земледельцев до центра «Казан» и обратно. Шлем выдают бесплатно.",
+      "link": "https://velo-kazan.example/embankment"
+    }
+  ],
+  "plans": [
+    {
+      "id": "classic",
+      "stops": [
+        {
+          "eventId": "evt-101",
+          "walkBefore": 0
+        },
+        {
+          "eventId": "evt-102",
+          "walkBefore": 1
+        },
+        {
+          "eventId": "evt-103",
+          "walkBefore": 20
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "stops": [
+        {
+          "eventId": "evt-101",
+          "walkBefore": 0
+        },
+        {
+          "eventId": "evt-102",
+          "walkBefore": 1
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "stops": [
+        {
+          "eventId": "evt-102",
+          "walkBefore": 0
+        },
+        {
+          "eventId": "evt-103",
+          "walkBefore": 20
+        }
+      ]
+    }
+  ],
+  "moods": [
+    {
+      "id": "rest",
+      "label": "Отдохнуть",
+      "hint": "Спокойные события, уютные места",
+      "emoji": "😌"
+    },
+    {
+      "id": "move",
+      "label": "Подвигаться",
+      "hint": "Спорт, активности, прогулки",
+      "emoji": "🏃"
+    },
+    {
+      "id": "learn",
+      "label": "Узнать новое",
+      "hint": "Выставки, лекции, культура",
+      "emoji": "📚"
+    },
+    {
+      "id": "meet",
+      "label": "Познакомиться",
+      "hint": "Встречи, нетворкинг, новые люди",
+      "emoji": "👯"
+    },
+    {
+      "id": "wow",
+      "label": "Впечатлиться",
+      "hint": "Концерты, шоу, яркие события",
+      "emoji": "🪩"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: var(--text);
+  font: 700 26px/1.15 var(--font);
+}
+
+.reason {
+  margin-top: 6px;
+  color: var(--text-secondary);
+  font: 400 14px/19px var(--font);
+}
+
+.section {
+  margin: 20px 0 10px;
+  color: var(--text);
+  font: 600 15px/19px var(--font);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}

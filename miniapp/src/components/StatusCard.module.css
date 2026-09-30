@@ -1,0 +1,66 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 16px;
+}
+
+.icon {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.text {
+  min-width: 0;
+  flex: 1;
+}
+
+.title {
+  color: var(--text);
+  font: 600 15px/19px var(--font);
+}
+
+.sub {
+  margin-top: 2px;
+  color: var(--text-secondary);
+  font: 400 13px/17px var(--font);
+}
+
+.ok {
+  background: var(--ok-bg);
+}
+
+.ok .icon {
+  background: var(--ok);
+}
+
+.tight {
+  background: var(--warn-bg);
+}
+
+.tight .icon {
+  background: var(--warn);
+}
+
+.late {
+  background: var(--bad-bg);
+}
+
+.late .icon {
+  background: var(--bad);
+}
+
+.info {
+  background: var(--tint);
+}
+
+.info .icon {
+  background: var(--primary);
+}

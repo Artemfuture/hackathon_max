@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+npm-debug.log
+.env
+.git
+.gitignore
+.claude
+*.md
+state
+# В образ не нужны автотесты и ручные выгрузки данных (их результат уже лежит в data/).
+test
+miniapp/test
+scripts

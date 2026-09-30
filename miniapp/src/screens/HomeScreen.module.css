@@ -1,0 +1,149 @@
+.root {
+  min-height: 100dvh;
+  background: var(--bg);
+  padding-bottom: calc(var(--tabbar-h) + 24px + env(safe-area-inset-bottom));
+}
+
+.withBar {
+  padding-bottom: calc(var(--tabbar-h) + 104px + env(safe-area-inset-bottom));
+}
+
+.column {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: max(16px, env(safe-area-inset-top)) var(--gutter) 0;
+}
+
+.top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.where {
+  min-width: 0;
+}
+
+.place {
+  display: inline-flex;
+  max-width: 100%;
+  align-items: center;
+  gap: 6px;
+  color: var(--text);
+  font: 700 17px/22px var(--font);
+}
+
+.place span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.place svg:first-child {
+  flex: none;
+  color: var(--primary);
+}
+
+.date {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+  color: var(--text-muted);
+  font: 500 13px/17px var(--font);
+}
+
+.weather {
+  white-space: nowrap;
+}
+
+.titleRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.title {
+  color: var(--text);
+  font: 700 34px/38px var(--font);
+  letter-spacing: -0.02em;
+}
+
+.search {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 2px 10px rgba(29, 20, 76, 0.1);
+  color: var(--text);
+}
+
+.search:active {
+  background: var(--tint);
+}
+
+.sectionHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 26px 0 12px;
+}
+
+.sectionHead h2 {
+  color: var(--text);
+  font: 700 19px/24px var(--font);
+}
+
+.sectionHead button {
+  color: var(--primary);
+  font: 600 14px/18px var(--font);
+  white-space: nowrap;
+}
+
+.sectionHead + section {
+  margin-top: 0;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: var(--surface);
+  color: var(--text);
+  font: 600 13px/16px var(--font);
+}
+
+.chipOn {
+  border-color: var(--primary);
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.empty {
+  color: var(--text-muted);
+  font: 400 14px/20px var(--font);
+}

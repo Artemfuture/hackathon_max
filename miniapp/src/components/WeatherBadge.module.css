@@ -1,0 +1,16 @@
+.badge {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  border-radius: 12px;
+  background: var(--surface-muted);
+  color: var(--text-secondary);
+  font: 500 13px/17px var(--font);
+}
+
+.hint {
+  color: var(--text-muted);
+  font-weight: 400;
+}

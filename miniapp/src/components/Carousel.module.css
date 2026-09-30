@@ -1,0 +1,99 @@
+.section {
+  margin-top: 16px;
+}
+
+.section + .section {
+  margin-top: 30px;
+}
+
+.head {
+  display: flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.title {
+  color: var(--text);
+  font: 700 22px/normal var(--font);
+}
+
+.arrows {
+  display: none;
+  flex: none;
+  gap: 6px;
+  margin-left: auto;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .arrows {
+    display: flex;
+  }
+}
+
+.arrow {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--surface-muted);
+  color: var(--primary);
+  font: 500 24px/1 var(--font);
+}
+
+.arrow:hover:not(:disabled) {
+  background: var(--tint-pressed);
+}
+
+.arrow:disabled {
+  color: var(--soft-disabled-text);
+  cursor: default;
+}
+
+.scroller {
+  display: flex;
+  gap: 15px;
+  margin: 0 calc(-1 * var(--gutter));
+  padding: 0 var(--gutter) 6px;
+  overflow-x: auto;
+  scroll-padding-inline: var(--gutter);
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .scroller {
+    cursor: grab;
+    user-select: none;
+  }
+}
+
+.scroller::-webkit-scrollbar {
+  display: none;
+}
+
+.scroller > * {
+  flex: none;
+  scroll-snap-align: start;
+}
+
+.scroller img {
+  -webkit-user-drag: none;
+}
+
+.scroller::after {
+  width: calc(var(--gutter) - 15px);
+  flex: none;
+  content: '';
+}
+
+@media not ((hover: hover) and (pointer: fine)) {
+  .head:not(:has(.title)) {
+    display: none;
+  }
+}

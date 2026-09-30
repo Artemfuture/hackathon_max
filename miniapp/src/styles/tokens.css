@@ -1,0 +1,44 @@
+:root {
+  --bg: #f7f7fc;
+  --surface: #fcfbff;
+  --surface-muted: #f0eff7;
+  --border: #e4e3ea;
+
+  --primary: #471aff;
+  --on-primary: #fafaff;
+  --line: #502bfd;
+  --line-muted: rgba(115, 117, 141, 0.3);
+
+  --tail: linear-gradient(180deg, #00bfff 0%, #6e1aff 55%, #471aff 100%);
+  --tail-h: linear-gradient(90deg, #00bfff 0%, #6e1aff 55%, #471aff 100%);
+  --spark: #8d68ff;
+
+  --primary-pressed: #3814d7;
+  --primary-disabled: #e1dfeb;
+  --primary-disabled-text: #9997a7;
+  --soft-pressed: #c5c0d8;
+  --soft-pressed-text: #201d2c;
+  --soft-disabled: #f3f2f6;
+  --soft-disabled-text: #aaa8b5;
+  --tint: #ece8ff;
+  --tint-pressed: #e2dcff;
+  --tint-border: #cec4ff;
+
+  --ok: #12a150;
+  --ok-bg: #e8f7ee;
+  --warn: #e08a00;
+  --warn-bg: #fff4e0;
+  --bad: #e5484d;
+  --bad-bg: #fdecec;
+
+  --text: #0d0b16;
+  --text-muted: #73758d;
+  --text-secondary: #555267;
+  --text-strong-muted: #272334;
+  --placeholder: #d9d9d9;
+
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --gutter: clamp(18px, 5vw, 24px);
+  --tabbar-h: 74px;
+}

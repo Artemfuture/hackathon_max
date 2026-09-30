@@ -1,0 +1,51 @@
+.hint,
+.compact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font: 500 12px/16px var(--font);
+}
+
+.hint {
+  padding: 10px 0 10px 2px;
+}
+
+.icon {
+  display: flex;
+  width: 26px;
+  height: 26px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--tint);
+  color: var(--primary);
+}
+
+.label {
+  min-width: 0;
+  flex: 1;
+  color: var(--text-secondary);
+}
+
+.alt {
+  color: var(--text-muted);
+}
+
+.action {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border-radius: 10px;
+  background: var(--surface-muted);
+  color: var(--primary);
+  font: 600 12px/14px var(--font);
+  text-decoration: none;
+}
+
+.action:active {
+  background: var(--tint-pressed);
+}

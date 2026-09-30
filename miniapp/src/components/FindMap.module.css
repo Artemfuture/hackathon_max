@@ -1,0 +1,61 @@
+.map {
+  position: absolute;
+  inset: 0;
+  background: #eceaf3;
+  isolation: isolate;
+}
+
+.map :global(.leaflet-control-attribution) {
+  background: rgba(252, 251, 255, 0.8);
+  font-size: 9px;
+}
+
+.map :global(.leaflet-top) {
+  top: calc(max(12px, env(safe-area-inset-top)) + 106px);
+}
+
+@media not ((hover: hover) and (pointer: fine)) {
+  .map :global(.leaflet-control-zoom) {
+    display: none;
+  }
+}
+
+.icon {
+  border: 0;
+  background: none;
+}
+
+.pin {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  border: 2.5px solid #fff;
+  border-radius: 50%;
+  background: var(--pin);
+  box-shadow: 0 3px 10px rgba(13, 11, 22, 0.28);
+  font-size: 15px;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+
+.selected {
+  width: 42px;
+  height: 42px;
+  border-width: 3px;
+  font-size: 20px;
+  box-shadow:
+    0 0 0 4px rgba(71, 26, 255, 0.35),
+    0 6px 16px rgba(13, 11, 22, 0.35);
+}
+
+.origin {
+  display: block;
+  width: 22px;
+  height: 22px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  background: #00bfff;
+  box-shadow: 0 0 0 6px rgba(0, 191, 255, 0.22), 0 2px 8px rgba(13, 11, 22, 0.3);
+}

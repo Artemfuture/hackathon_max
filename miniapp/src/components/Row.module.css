@@ -1,0 +1,77 @@
+.row {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 70px;
+  align-items: center;
+  gap: 4px;
+  padding: 9px 52px 9px 9px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  cursor: pointer;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.1s ease;
+}
+
+.row:active {
+  transform: scale(0.99);
+}
+
+.row:has(:focus-visible) {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+.row:active,
+.rowSelected {
+  border-color: var(--tint-border);
+  background: var(--tint);
+}
+
+.text {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 9px;
+}
+
+.title {
+  color: var(--text);
+  font: 500 16px/19px var(--font);
+}
+
+.hint {
+  color: var(--text-secondary);
+  font: 400 12px/15px var(--font);
+}
+
+.checkInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  width: 22px;
+  height: 22px;
+  margin-top: -11px;
+  border: 1.5px solid var(--text-muted);
+  border-radius: 7px;
+  background: var(--bg);
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.boxChecked {
+  border-color: var(--primary);
+  background: var(--primary);
+}

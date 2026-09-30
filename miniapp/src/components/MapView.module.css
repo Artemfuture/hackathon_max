@@ -1,0 +1,39 @@
+.map {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--tint);
+  isolation: isolate;
+}
+
+.map :global(.leaflet-control-attribution) {
+  background: rgba(252, 251, 255, 0.8);
+  font-size: 9px;
+}
+
+.icon {
+  border: 0;
+  background: none;
+}
+
+.stop,
+.origin {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(13, 11, 22, 0.3);
+}
+
+.stop {
+  background: var(--primary);
+  color: #fff;
+  font: 700 12px/1 var(--font);
+}
+
+.origin {
+  background: #00bfff;
+}

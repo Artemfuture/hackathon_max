@@ -1,0 +1,59 @@
+.card {
+  width: 262px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 4px 16px rgba(13, 11, 22, 0.04);
+}
+
+.covers {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: 96px;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  gap: 2px;
+}
+
+.covers img {
+  width: 100%;
+  height: 96px;
+  object-fit: cover;
+  background: var(--tint);
+}
+
+.label {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font: 600 11px/13px var(--font);
+}
+
+.body {
+  padding: 14px 16px 16px;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 12px;
+  color: var(--text-muted);
+  font: 600 11px/14px var(--font);
+}
+
+.road {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.body > button {
+  margin-top: 14px;
+}

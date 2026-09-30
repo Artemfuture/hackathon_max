@@ -1,0 +1,19 @@
+.collage {
+  margin: 0;
+}
+
+.timeline {
+  margin: 26px 0 0;
+}
+
+.metrics {
+  display: flex;
+  gap: 23px;
+  margin-top: 22px;
+  color: var(--text-muted);
+  font: 600 12px/15px var(--font);
+}
+
+.dark {
+  color: var(--text);
+}

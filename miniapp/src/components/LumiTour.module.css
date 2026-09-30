@@ -1,0 +1,154 @@
+.root {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+}
+
+.dim {
+  position: absolute;
+  inset: 0;
+  background: rgba(13, 11, 22, 0.55);
+  animation: fade 0.25s ease both;
+}
+
+.hole {
+  position: absolute;
+  border-radius: 18px;
+  box-shadow:
+    0 0 0 3px rgba(125, 90, 255, 0.9),
+    0 0 0 200vmax rgba(13, 11, 22, 0.55);
+  transition:
+    top 0.25s ease,
+    left 0.25s ease,
+    width 0.25s ease,
+    height 0.25s ease;
+  pointer-events: none;
+}
+
+.panel,
+.panelCenter {
+  position: absolute;
+  right: 12px;
+  left: 12px;
+  display: flex;
+  max-width: 456px;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0 auto;
+  padding: 12px 14px 12px 8px;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: 0 16px 40px rgba(13, 11, 22, 0.3);
+  animation: pop 0.3s cubic-bezier(0.2, 0.8, 0.2, 1.1) both;
+}
+
+.panelCenter {
+  top: 50%;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 18px 14px;
+  translate: 0 -50%;
+}
+
+.lumi {
+  width: 84px;
+  height: auto;
+  flex: none;
+}
+
+.panelCenter .lumi {
+  width: 150px;
+}
+
+.bubble {
+  min-width: 0;
+  flex: 1;
+  padding-top: 2px;
+}
+
+.panelCenter .bubble {
+  width: 100%;
+  flex: none;
+}
+
+.kicker {
+  color: var(--primary);
+  font: 700 11px/14px var(--font);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: 4px;
+  color: var(--text);
+  font: 700 18px/23px var(--font);
+}
+
+.text {
+  margin-top: 6px;
+  color: var(--text-secondary);
+  font: 400 14px/19px var(--font);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.dots {
+  display: flex;
+  flex: 1;
+  gap: 5px;
+}
+
+.dot,
+.dotActive {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+}
+
+.dotActive {
+  width: 16px;
+  background: var(--primary);
+}
+
+.skip {
+  padding: 8px 6px;
+  color: var(--text-muted);
+  font: 500 13px/16px var(--font);
+}
+
+.next {
+  padding: 9px 16px;
+  border-radius: 12px;
+  background: var(--primary);
+  color: var(--on-primary);
+  font: 600 14px/17px var(--font);
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dim,
+  .panel,
+  .panelCenter,
+  .hole {
+    animation: none;
+    transition: none;
+  }
+}

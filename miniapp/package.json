@@ -1,0 +1,25 @@
+{
+  "name": "dosug-miniapp",
+  "version": "0.1.0",
+  "description": "Мини-приложение MAX для бота «Досуг Казани»: вечер под свободное время, карта и маршрут",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.3.0",
+    "leaflet": "^1.9.4",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "vite": "^6.4.3"
+  },
+  "engines": {
+    "node": ">=20.12"
+  }
+}

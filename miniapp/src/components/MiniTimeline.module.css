@@ -1,0 +1,83 @@
+.root {
+  --dot: 10px;
+}
+
+.sm {
+  --name-size: 12px;
+}
+
+.lg {
+  --name-size: 14px;
+}
+
+.times {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  color: var(--text-muted);
+  font: 600 11px/13px var(--font);
+  font-variant-numeric: tabular-nums;
+}
+
+.track {
+  position: relative;
+  display: grid;
+  height: var(--dot);
+  grid-template-columns: repeat(var(--n), 1fr);
+  justify-items: center;
+}
+
+.track::before {
+  position: absolute;
+  top: calc(var(--dot) / 2 - 1px);
+  right: calc(50% / var(--n));
+  left: calc(50% / var(--n));
+  height: 2px;
+  border-radius: 1px;
+  background: var(--tail-h);
+  content: '';
+}
+
+.dot {
+  position: relative;
+  width: var(--dot);
+  height: var(--dot);
+  border: 2px solid var(--surface);
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 0 0 1px rgba(71, 26, 255, 0.25);
+}
+
+.labels {
+  display: grid;
+  gap: 4px;
+  margin-top: 8px;
+  grid-template-columns: repeat(var(--n), minmax(0, 1fr));
+}
+
+.label {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.name,
+.sub {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.name {
+  color: var(--text);
+  font: 600 var(--name-size) / 1.25 var(--font);
+}
+
+.sub {
+  margin-top: 3px;
+  color: var(--text-secondary);
+  font: 500 11px/1.25 var(--font);
+}
